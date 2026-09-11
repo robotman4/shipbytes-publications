@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "slug": "2026-09-11",
+  "title": "Ship Bytes - September 11, 2026",
+  "subject": "Ship Bytes - Maritime tech news, one byte at a time",
+  "published_date": "2026-09-11",
+  "intro": "This edition focuses on practical changes in vessel connectivity, cyber resilience, maritime surveillance and bridge automation.",
+  "stories": [
+    {
+      "slug": "nexuswave-bv-e27-approval",
+      "title": "NexusWave receives Bureau Veritas cyber type approval against IACS UR E27",
+      "byte": "Inmarsat Maritime's NexusWave managed connectivity service has received Bureau Veritas Cyber Security Type Approval against IACS UR E27. The assessment covered the onboard ICT architecture, network equipment, orchestration and managed service edge as an integrated system rather than checking isolated components.",
+      "summary": "NexusWave bonds several connectivity paths, including GEO, LEO, LTE and L-band, into one managed service and adds segmentation, encryption and centrally managed security controls. Bureau Veritas evaluated the combined onboard architecture against UR E27, which is aimed at the cyber resilience of shipboard systems and equipment. This follows an earlier ClassNK approval against the same requirement, giving operators another class-backed validation point when selecting connectivity infrastructure for newbuilds and major upgrades.",
+      "why_it_matters": "Connectivity platforms are increasingly part of the vessel's regulated cyber architecture, so class approval of the complete managed stack can reduce integration and compliance uncertainty for owners and shipyards.",
+      "source_name": "Inmarsat Maritime",
+      "source_url": "https://www.inmarsat.com/news/latest-news/maritime/2026/nexuswave-earns-bureau-veritas-cyber-security-type-approval/",
+      "source_type": "external"
+    },
+    {
+      "slug": "ksat-piersight-sar-ais-vake",
+      "title": "KSAT and PierSight plan to combine SAR and AIS data in Vake maritime surveillance",
+      "byte": "KSAT and PierSight are exploring integration of PierSight's next-generation SAR plus AIS data into the Vake Powered by KSAT platform. The approach puts radar imagery and AIS reception on the same satellite, allowing independent radar detections to be compared directly with what vessels are reporting over AIS.",
+      "summary": "PierSight's Varuna 2.0 satellite, planned for launch in 2027, is designed to carry both Synthetic Aperture Radar and AIS reception, with a larger 32-satellite constellation planned afterwards. KSAT says the data could be used inside Vake to improve detection and tracking when AIS is absent, manipulated or inconsistent. The attraction is not only better dark-vessel detection, but also lower-latency correlation between independent radar observations and identity or position data reported by ships.",
+      "why_it_matters": "Combining SAR and AIS in a low-latency operational platform improves maritime situational awareness without depending entirely on vessel-reported position data.",
+      "source_name": "KSAT",
+      "source_url": "https://www.ksat.no/news/news-archive/2026/ksat-and-piersight-to-explore-integration-of-next-generation-sar-and-ais-data-into-vake/",
+      "source_type": "external"
+    },
+    {
+      "slug": "eutelsat-oneweb-229-satellites",
+      "title": "Eutelsat orders another 229 OneWeb satellites and secures two Ariane 6 launches",
+      "byte": "Eutelsat has ordered 229 additional OneWeb LEO satellites from Airbus and booked two dedicated Ariane 64 launches for 2027 and 2028. The new spacecraft are intended to maintain and expand OneWeb service until Europe's IRIS2 constellation becomes commercially available.",
+      "summary": "The additional order is aimed at service continuity, capacity growth and improved performance for Eutelsat's OneWeb network, which is positioned primarily at government, enterprise and mobility customers rather than the consumer market. Eutelsat also plans hosted payload capability on the new satellites. For maritime users, the important point is that OneWeb remains an actively renewed LEO option alongside Starlink rather than a static constellation waiting for IRIS2 to replace it.",
+      "why_it_matters": "More credible LEO competition gives maritime operators additional choices for multi-orbit designs, supplier diversity and resilience instead of making Starlink the only practical high-bandwidth LEO path.",
+      "source_name": "Eutelsat",
+      "source_url": "https://www.eutelsat.com/media-press/media-centre/news/eutelsat-procures-a-further-oneweb-229-leo-satellites-airbus",
+      "source_type": "external"
+    },
+    {
+      "slug": "marlink-ot-security-service",
+      "title": "Marlink launches managed OT security for vessel systems",
+      "byte": "Marlink has launched an OT security service aimed at connected operational systems such as navigation, propulsion and cargo handling. The service combines asset discovery, risk assessment, passive monitoring, protection and incident-response capabilities, backed by 24/7 security operations.",
+      "summary": "The offering is designed around the reality that vessel OT is increasingly reachable through remote access, removable media and connected IT networks. Marlink says the service can identify connected assets and communications, locate vulnerabilities and monitor for abnormal behaviour without relying on intrusive scanning that could disrupt critical systems. It is positioned to support IACS UR E26, NIS2 and ISA/IEC 62443 requirements, while Marlink's own onboard equipment is developed against UR E27.",
+      "why_it_matters": "For many fleets, the difficult part of OT security is not buying another firewall but gaining an accurate asset inventory and monitoring systems that cannot tolerate normal enterprise security techniques.",
+      "source_name": "Marlink",
+      "source_url": "https://marlink.com/resources/knowledge-hub/marlink-launches-operational-technology-security-offering-protecting-maritime-and-industrial-operations/",
+      "source_type": "external"
+    },
+    {
+      "slug": "orca-ai-human-in-command",
+      "title": "Shipowners push AI bridge systems as decision support rather than autonomous replacement",
+      "byte": "Recent fleet experience with AI-assisted watchkeeping is reinforcing a fairly practical model: use computer vision and decision support to reduce collision risk while keeping trained mariners in command. CMA Ships' Torsten Holst Pedersen, who previously helped move Orca AI from trials to a 100-ship rollout at Seaspan, argues the technology works best as augmentation and training support.",
+      "summary": "The discussion around bridge AI is moving away from the simple question of whether ships will become autonomous and toward whether assistive systems can produce measurable safety improvements. Orca AI and operators at SMM highlighted use cases such as detecting developing traffic situations, improving situational awareness and reviewing watchkeeping performance after voyages. The operational message is that successful deployment depends as much on procedures, crew trust, training and data quality as on the computer-vision model itself.",
+      "why_it_matters": "AI bridge tools are becoming fleet infrastructure rather than isolated trials, which means owners need to think about data flows, lifecycle support, bridge integration and operational procedures alongside model performance.",
+      "source_name": "Orca AI",
+      "source_url": "https://www.orca-ai.io/blog/inside-smm-2026-what-makes-ai-worth-the-investment-for-shipowners/",
+      "source_type": "external"
+    },
+    {
+      "slug": "fugro-marine-digital-twin-singapore",
+      "title": "Fugro builds AI-driven marine digital twin platform in Singapore",
+      "byte": "Fugro is developing an AI-driven marine digital twin capability in Singapore that brings geophysical surveys, geotechnical investigations, laboratory results and imaging into one analytics environment. The platform is intended to automate more of the integration and interpretation work that is currently spread across separate datasets and workflows.",
+      "summary": "The Singapore hub will be used as the launch point for deployments across Asia Pacific. Fugro says AI and machine learning will be used to integrate and analyse marine Geo-data for offshore and coastal projects, with the goal of shortening the path from raw survey information to operational decisions. This is less about a 3D visualisation layer and more about building a common data model and analytics environment around several traditionally separate engineering datasets.",
+      "why_it_matters": "Marine digital twins become materially more useful when they unify real operational and survey datasets instead of acting mainly as presentation layers, which is a pattern likely to spread into vessel and offshore asset management.",
+      "source_name": "Fugro",
+      "source_url": "https://www.fugro.com/news/business-news/2026/fugro-strengthens-singapore-innovation-hub-with-new-ai-driven-marine-digital-twin",
+      "source_type": "external"
+    }
+  ]
+}
