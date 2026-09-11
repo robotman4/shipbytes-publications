@@ -24,7 +24,17 @@
       "why_it_matters": "Connectivity platforms are increasingly part of the vessel's regulated cyber architecture, so class approval of the complete managed stack can reduce integration and compliance uncertainty for owners and shipyards.",
       "source_name": "Inmarsat Maritime",
       "source_url": "https://www.inmarsat.com/news/latest-news/maritime/2026/nexuswave-earns-bureau-veritas-cyber-security-type-approval/",
-      "source_type": "external"
+      "source_type": "external",
+      "image": {
+        "provider": "dropbox",
+        "shared_folder_url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=0",
+        "path": "2026/2026-09-11/nexuswave-bv-e27-approval.jpg",
+        "type": "generated",
+        "alt": "Illustration of a connected cargo vessel using multi-orbit communications with cyber protection overlays.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
     },
     {
       "slug": "ksat-piersight-sar-ais-vake",
@@ -34,7 +44,17 @@
       "why_it_matters": "Combining SAR and AIS in a low-latency operational platform improves maritime situational awareness without depending entirely on vessel-reported position data.",
       "source_name": "KSAT",
       "source_url": "https://www.ksat.no/news/news-archive/2026/ksat-and-piersight-to-explore-integration-of-next-generation-sar-and-ais-data-into-vake/",
-      "source_type": "external"
+      "source_type": "external",
+      "image": {
+        "provider": "dropbox",
+        "shared_folder_url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=0",
+        "path": "2026/2026-09-11/ksat-piersight-sar-ais-vake.jpg",
+        "type": "generated",
+        "alt": "Illustration of a satellite observing vessels at sea with radar and AIS correlation overlays.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
     },
     {
       "slug": "eutelsat-oneweb-229-satellites",
@@ -44,7 +64,17 @@
       "why_it_matters": "More credible LEO competition gives maritime operators additional choices for multi-orbit designs, supplier diversity and resilience instead of making Starlink the only practical high-bandwidth LEO path.",
       "source_name": "Eutelsat",
       "source_url": "https://www.eutelsat.com/media-press/media-centre/news/eutelsat-procures-a-further-oneweb-229-leo-satellites-airbus",
-      "source_type": "external"
+      "source_type": "external",
+      "image": {
+        "provider": "dropbox",
+        "shared_folder_url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=0",
+        "path": "2026/2026-09-11/eutelsat-oneweb-229-satellites.jpg",
+        "type": "generated",
+        "alt": "Illustration of a LEO satellite constellation serving maritime users with a launch vehicle in the background.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
     },
     {
       "slug": "marlink-ot-security-service",
@@ -54,7 +84,17 @@
       "why_it_matters": "For many fleets, the difficult part of OT security is not buying another firewall but gaining an accurate asset inventory and monitoring systems that cannot tolerate normal enterprise security techniques.",
       "source_name": "Marlink",
       "source_url": "https://marlink.com/resources/knowledge-hub/marlink-launches-operational-technology-security-offering-protecting-maritime-and-industrial-operations/",
-      "source_type": "external"
+      "source_type": "external",
+      "image": {
+        "provider": "dropbox",
+        "shared_folder_url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=0",
+        "path": "2026/2026-09-11/marlink-ot-security-service.jpg",
+        "type": "generated",
+        "alt": "Illustration of vessel operational technology systems protected by a cybersecurity shield and network monitoring.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
     },
     {
       "slug": "orca-ai-human-in-command",
@@ -64,7 +104,17 @@
       "why_it_matters": "AI bridge tools are becoming fleet infrastructure rather than isolated trials, which means owners need to think about data flows, lifecycle support, bridge integration and operational procedures alongside model performance.",
       "source_name": "Orca AI",
       "source_url": "https://www.orca-ai.io/blog/inside-smm-2026-what-makes-ai-worth-the-investment-for-shipowners/",
-      "source_type": "external"
+      "source_type": "external",
+      "image": {
+        "provider": "dropbox",
+        "shared_folder_url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=0",
+        "path": "2026/2026-09-11/orca-ai-human-in-command.jpg",
+        "type": "generated",
+        "alt": "Illustration of an AI-assisted ship bridge using radar, computer vision and decision-support overlays while the crew remains in control.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
     },
     {
       "slug": "fugro-marine-digital-twin-singapore",
@@ -74,7 +124,17 @@
       "why_it_matters": "Marine digital twins become materially more useful when they unify real operational and survey datasets instead of acting mainly as presentation layers, which is a pattern likely to spread into vessel and offshore asset management.",
       "source_name": "Fugro",
       "source_url": "https://www.fugro.com/news/business-news/2026/fugro-strengthens-singapore-innovation-hub-with-new-ai-driven-marine-digital-twin",
-      "source_type": "external"
+      "source_type": "external",
+      "image": {
+        "provider": "dropbox",
+        "shared_folder_url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=0",
+        "path": "2026/2026-09-11/fugro-marine-digital-twin-singapore.jpg",
+        "type": "generated",
+        "alt": "Illustration of a marine digital twin combining vessel, seabed and geospatial data layers in one analytics environment.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
     }
   ]
 }
