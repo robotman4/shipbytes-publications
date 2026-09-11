@@ -6,7 +6,9 @@
   "published_date": "2026-09-11",
   "intro": "This edition focuses on practical changes in vessel connectivity, cyber resilience, maritime surveillance and bridge automation.",
   "image": {
-    "path": "assets/2026/2026-09-11/cover.jpg",
+    "provider": "dropbox",
+    "shared_folder_url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=0",
+    "path": "2026/2026-09-11/cover.jpg",
     "type": "generated",
     "alt": "Illustration of a connected cargo vessel with satellite, cybersecurity, navigation and data overlays.",
     "credit": "Ship Bytes",
