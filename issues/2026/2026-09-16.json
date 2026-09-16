@@ -1,6 +1,6 @@
 {
-  "slug": "2026-09-18",
-  "title": "Ship Bytes - 18 September 2026",
+  "slug": "2026-09-16",
+  "title": "Ship Bytes - 16 September 2026",
   "subject": "Ship Bytes: crew-network risk, resilient positioning and software-defined vessels",
   "intro": "This issue focuses on practical vessel technology: where cyber alerts are appearing, how ships can retain trusted positioning during GNSS disruption, and how software, telemetry and common standards are changing ship operations.",
   "stories": [
@@ -14,7 +14,7 @@
       "source_url": "https://thedigitalship.com/news/maritime-satellite-communications/82-of-maritime-cyber-alerts-hit-crew-networks-marlink-report-finds/",
       "source_type": "external",
       "published_at": "2026-09-16T00:00:00Z",
-      "image": {"url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-18_crew-networks-cyber-alerts.jpg", "type": "generated", "alt": "Illustration of a vessel security analyst monitoring an exposed crew network separated from protected bridge and operational systems.", "credit": "Ship Bytes", "source_url": null, "usage": "generated"}
+      "image": {"url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-16_crew-networks-cyber-alerts.jpg", "type": "generated", "alt": "Illustration of a vessel security analyst monitoring an exposed crew network separated from protected bridge and operational systems.", "credit": "Ship Bytes", "source_url": null, "usage": "generated"}
     },
     {
       "slug": "iridium-gnss-resilient-tracking",
@@ -26,7 +26,7 @@
       "source_url": "https://thedigitalship.com/news/maritime-satellite-communications/ground-control-joins-dnk-tracking-programme-to-strengthen-digital-resilience-at-sea/",
       "source_type": "external",
       "published_at": "2026-09-15T00:00:00Z",
-      "image": {"url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-18_iridium-gnss-resilient-tracking.jpg", "type": "generated", "alt": "Illustration of a cargo vessel maintaining an independent satellite position fix while other navigation signals are disrupted.", "credit": "Ship Bytes", "source_url": null, "usage": "generated"}
+      "image": {"url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-16_iridium-gnss-resilient-tracking.jpg", "type": "generated", "alt": "Illustration of a cargo vessel maintaining an independent satellite position fix while other navigation signals are disrupted.", "credit": "Ship Bytes", "source_url": null, "usage": "generated"}
     },
     {
       "slug": "software-defined-vessel-assurance",
@@ -38,7 +38,7 @@
       "source_url": "https://thedigitalship.com/uncategorised/dnv-and-hd-ksoe-build-assurance-framework-for-software-defined-vessels/",
       "source_type": "external",
       "published_at": "2026-09-15T00:00:00Z",
-      "image": {"url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-18_software-defined-vessel-assurance.jpg", "type": "generated", "alt": "Illustration of engineers reviewing a digital twin and modular onboard systems during a ship's lifecycle assurance process.", "credit": "Ship Bytes", "source_url": null, "usage": "generated"}
+      "image": {"url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-16_software-defined-vessel-assurance.jpg", "type": "generated", "alt": "Illustration of engineers reviewing a digital twin and modular onboard systems during a ship's lifecycle assurance process.", "credit": "Ship Bytes", "source_url": null, "usage": "generated"}
     },
     {
       "slug": "vessel-data-conversational-interface",
@@ -50,7 +50,7 @@
       "source_url": "https://thedigitalship.com/news/maritime-software/gelectric-puts-vessel-data-into-conversation-with-new-ai-assistant-for-shipowners-and-managers/",
       "source_type": "external",
       "published_at": "2026-09-14T00:00:00Z",
-      "image": {"url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-18_vessel-data-conversational-interface.jpg", "type": "generated", "alt": "Illustration of a chief engineer querying live and historical machinery data through a conversational vessel interface.", "credit": "Ship Bytes", "source_url": null, "usage": "generated"}
+      "image": {"url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-16_vessel-data-conversational-interface.jpg", "type": "generated", "alt": "Illustration of a chief engineer querying live and historical machinery data through a conversational vessel interface.", "credit": "Ship Bytes", "source_url": null, "usage": "generated"}
     },
     {
       "slug": "reefer-telemetry-container-plus",
@@ -62,7 +62,7 @@
       "source_url": "https://thedigitalship.com/news/maritime-software/one-uses-near-real-time-reefer-data-to-give-shippers-greater-cargo-oversight/",
       "source_type": "external",
       "published_at": "2026-09-16T00:00:00Z",
-      "image": {"url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-18_reefer-telemetry-container-plus.jpg", "type": "generated", "alt": "Illustration of a refrigerated container aboard a cargo ship with temperature, humidity, power and location telemetry.", "credit": "Ship Bytes", "source_url": null, "usage": "generated"}
+      "image": {"url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-16_reefer-telemetry-container-plus.jpg", "type": "generated", "alt": "Illustration of a refrigerated container aboard a cargo ship with temperature, humidity, power and location telemetry.", "credit": "Ship Bytes", "source_url": null, "usage": "generated"}
     },
     {
       "slug": "smart-ship-standards-framework",
@@ -74,10 +74,10 @@
       "source_url": "https://pressreleases.eagle.org/news/abs-joins-korean-initiative-to-advance-standards-for-next-generation-ships-and-shipyards",
       "source_type": "external",
       "published_at": "2026-09-13T00:00:00Z",
-      "image": {"url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-18_smart-ship-standards-framework.jpg", "type": "generated", "alt": "Illustration of an interconnected smart shipyard using common digital interfaces for vessel systems and manufacturing equipment.", "credit": "Ship Bytes", "source_url": null, "usage": "generated"}
+      "image": {"url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-16_smart-ship-standards-framework.jpg", "type": "generated", "alt": "Illustration of an interconnected smart shipyard using common digital interfaces for vessel systems and manufacturing equipment.", "credit": "Ship Bytes", "source_url": null, "usage": "generated"}
     }
   ],
-  "image": {"url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-18_cover.jpg", "type": "generated", "alt": "Illustration of a connected cargo vessel combining satellite links, secure onboard systems and cargo telemetry.", "credit": "Ship Bytes", "source_url": null, "usage": "generated"},
+  "image": {"url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-16_cover.jpg", "type": "generated", "alt": "Illustration of a connected cargo vessel combining satellite links, secure onboard systems and cargo telemetry.", "credit": "Ship Bytes", "source_url": null, "usage": "generated"},
   "schema_version": 1,
-  "published_date": "2026-09-18"
+  "published_date": "2026-09-16"
 }
