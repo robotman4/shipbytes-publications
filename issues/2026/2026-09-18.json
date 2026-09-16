@@ -1,0 +1,83 @@
+{
+  "slug": "2026-09-18",
+  "title": "Ship Bytes - 18 September 2026",
+  "subject": "Ship Bytes: crew-network risk, resilient positioning and software-defined vessels",
+  "intro": "This issue focuses on practical vessel technology: where cyber alerts are appearing, how ships can retain trusted positioning during GNSS disruption, and how software, telemetry and common standards are changing ship operations.",
+  "stories": [
+    {
+      "slug": "crew-networks-cyber-alerts",
+      "title": "Marlink finds 82% of assessed maritime cyber alerts in crew networks",
+      "byte": "Marlink's 2026 cyber intelligence report says 82% of detected alerts in its assessment dataset occurred in crew network zones, while compromised credentials accounted for 69% of identified risks.",
+      "summary": "Marlink based the report on more than 200 cybersecurity assessments, including 160 technical security tests and red-team engagements across maritime, offshore and critical-infrastructure environments. It found 82% of detected alerts in crew networks, 17% in network-support environments and fewer than 1% in OT/ICS. The low OT figure should not be read as low risk: Marlink says poor visibility in legacy OT can prevent detection. Sixty percent of assessed sites and vessels also used shared IT/OT infrastructure that was poorly documented or inadequately secured. Compromised credentials represented 69% of identified risks, and 20% of recipients clicked links in controlled phishing exercises. The report recommends separating crew, business and OT networks, adding passive OT monitoring and addressing both technical and governance gaps.",
+      "why_it_matters": "Crew Wi-Fi is not merely an amenity network when routing, identity or firewall boundaries are weak. Vessel IT teams should verify segmentation, credential controls and OT visibility instead of treating the small number of detected OT alerts as proof that OT is safe.",
+      "source_name": "Digital Ship",
+      "source_url": "https://thedigitalship.com/news/maritime-satellite-communications/82-of-maritime-cyber-alerts-hit-crew-networks-marlink-report-finds/",
+      "source_type": "external",
+      "published_at": "2026-09-16T00:00:00Z",
+      "image": {"url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-18_crew-networks-cyber-alerts.jpg", "type": "generated", "alt": "Illustration of a vessel security analyst monitoring an exposed crew network separated from protected bridge and operational systems.", "credit": "Ship Bytes", "source_url": null, "usage": "generated"}
+    },
+    {
+      "slug": "iridium-gnss-resilient-tracking",
+      "title": "DNK adds Iridium-based tracking option for ships facing GNSS disruption",
+      "byte": "Ground Control is one of three vendors qualified for DNK's new Maritime Tracking Programme, offering independent position reporting through Iridium STL when conventional GNSS is jammed or spoofed.",
+      "summary": "Den Norske Krigsforsikring's new programme replaces its earlier Raptor scheme with a multi-vendor model. Ground Control's RockFLEET Assured combines Iridium satellite positioning and timing with two-way satellite messaging and fleet tracking through its Cloudloop platform. The marine-grade unit can feed existing bridge systems over standard NMEA protocols, issue bridge-integrity alerts and report an independent position when normal GNSS cannot be trusted. The system is already operating aboard commercial vessels in high-risk waters and is integrated with DNK's war-risk insurance framework.",
+      "why_it_matters": "GNSS jamming and spoofing are operational problems now, not theoretical navigation risks. An independent timing and position source gives bridge and shore teams a way to detect bad fixes and maintain fleet visibility without redesigning the entire bridge stack.",
+      "source_name": "Digital Ship",
+      "source_url": "https://thedigitalship.com/news/maritime-satellite-communications/ground-control-joins-dnk-tracking-programme-to-strengthen-digital-resilience-at-sea/",
+      "source_type": "external",
+      "published_at": "2026-09-15T00:00:00Z",
+      "image": {"url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-18_iridium-gnss-resilient-tracking.jpg", "type": "generated", "alt": "Illustration of a cargo vessel maintaining an independent satellite position fix while other navigation signals are disrupted.", "credit": "Ship Bytes", "source_url": null, "usage": "generated"}
+    },
+    {
+      "slug": "software-defined-vessel-assurance",
+      "title": "DNV and HD KSOE target lifecycle assurance for software-defined vessels",
+      "byte": "DNV and HD KSOE will develop methods to verify software-defined vessel systems through 2030, including software changes made after a ship has entered service.",
+      "summary": "The memorandum combines HD KSOE's software-defined vessel and digital-platform work with DNV's assurance, verification and certification expertise. HD KSOE plans a software-centric platform for vessel operations, lifecycle management and future digital capabilities. DNV will examine what technical evidence and verification frameworks are needed as those systems are implemented and operated. The work is expected to include pilots, demonstrations and industry engagement, with explicit attention to updates on vessels already delivered rather than limiting verification to the newbuild handover.",
+      "why_it_matters": "A ship whose behavior changes through software cannot rely on a one-time delivery certificate. Owners will need controlled update processes, evidence, rollback planning and continuing assurance across a vessel's service life.",
+      "source_name": "Digital Ship",
+      "source_url": "https://thedigitalship.com/uncategorised/dnv-and-hd-ksoe-build-assurance-framework-for-software-defined-vessels/",
+      "source_type": "external",
+      "published_at": "2026-09-15T00:00:00Z",
+      "image": {"url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-18_software-defined-vessel-assurance.jpg", "type": "generated", "alt": "Illustration of engineers reviewing a digital twin and modular onboard systems during a ship's lifecycle assurance process.", "credit": "Ship Bytes", "source_url": null, "usage": "generated"}
+    },
+    {
+      "slug": "vessel-data-conversational-interface",
+      "title": "Gelectric adds natural-language queries across vessel operational data",
+      "byte": "Gelectric's new Chat with Your Vessel interface lets technical teams ask natural-language questions about live and historical vessel data, including fuel consumption, vibration and remaining-on-board values.",
+      "summary": "The feature sits inside the Gelectric Intelligence platform and uses the company's Data Catching Engine to ingest, normalize and validate data from onboard and operational sources. Users can ask vessel-specific questions instead of manually reconciling dashboards, sensor feeds, spreadsheets, emails and PDF reports. Gelectric gives examples such as changes in generator fuel use, abnormal engine vibration and the latest remaining-on-board figures. The wider platform also provides automated compliance and performance reporting and real-time anomaly detection. The announcement does not disclose model architecture, deployment location or safeguards against incorrect answers, so operators would still need traceability back to source data before using responses for safety-critical decisions.",
+      "why_it_matters": "Conversational access can reduce the time engineers spend finding data, but the useful part is the normalized vessel-data layer underneath it. Auditability, permissions and source-linked answers will decide whether this becomes an operational tool or another dashboard.",
+      "source_name": "Digital Ship",
+      "source_url": "https://thedigitalship.com/news/maritime-software/gelectric-puts-vessel-data-into-conversation-with-new-ai-assistant-for-shipowners-and-managers/",
+      "source_type": "external",
+      "published_at": "2026-09-14T00:00:00Z",
+      "image": {"url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-18_vessel-data-conversational-interface.jpg", "type": "generated", "alt": "Illustration of a chief engineer querying live and historical machinery data through a conversational vessel interface.", "credit": "Ship Bytes", "source_url": null, "usage": "generated"}
+    },
+    {
+      "slug": "reefer-telemetry-container-plus",
+      "title": "ONE brings reefer condition and location telemetry into one dashboard",
+      "byte": "Ocean Network Express's CONTAINER+ service combines near-real-time temperature, humidity, airflow, power and location data for refrigerated containers across sea and inland transport.",
+      "summary": "CONTAINER+ centralizes reefer location and condition data, including supply and return air, temperature, humidity, power status, historical records and optional probe data. Updates can follow a shipment across ocean and land legs. ONE reports using hourly monitoring for Malaysian durian shipments and says a pharmaceutical customer adopted the service for Trans-Pacific exports after validation across an ocean-and-rail journey; the programme has since supported more than 100 reefer shipments for that customer. It has also been tested for controlled-atmosphere flower shipments from Kenya to Tokyo as an alternative to air freight.",
+      "why_it_matters": "Unified condition and location telemetry makes cold-chain exceptions actionable before cargo reaches its destination. It also shifts reefer monitoring from isolated equipment data toward an end-to-end operational service spanning vessel, terminal and inland legs.",
+      "source_name": "Digital Ship",
+      "source_url": "https://thedigitalship.com/news/maritime-software/one-uses-near-real-time-reefer-data-to-give-shippers-greater-cargo-oversight/",
+      "source_type": "external",
+      "published_at": "2026-09-16T00:00:00Z",
+      "image": {"url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-18_reefer-telemetry-container-plus.jpg", "type": "generated", "alt": "Illustration of a refrigerated container aboard a cargo ship with temperature, humidity, power and location telemetry.", "credit": "Ship Bytes", "source_url": null, "usage": "generated"}
+    },
+    {
+      "slug": "smart-ship-standards-framework",
+      "title": "ABS and Korean maritime groups start five-year smart-ship standards programme",
+      "byte": "ABS, KOMERI, KOSHIPA and RIMS have started a five-year effort to develop international standards for smart ships, smart shipyards and advanced maritime manufacturing.",
+      "summary": "The agreement brings ABS together with the Korea Marine Equipment Research Institute, the Korean Offshore and Shipbuilding Association and the Research Institute of Medium and Small Shipbuilding. The group plans international benchmarks for vessels and shipyards using digital technology, smart manufacturing and other advanced systems. Initial work already includes preliminary standards for digital production and traceability of additively manufactured shipboard components, along with vent-mast design for hydrogen-fuelled ships. The programme builds on an earlier ABS agreement with the Korean Agency for Technology and Standards under Korea's strategy for high-value vessel development.",
+      "why_it_matters": "Common standards can reduce integration and assurance uncertainty when ships combine equipment and software from many suppliers. For vessel IT, traceability and interoperability requirements established at the yard can determine how maintainable the delivered platform is for decades.",
+      "source_name": "ABS",
+      "source_url": "https://pressreleases.eagle.org/news/abs-joins-korean-initiative-to-advance-standards-for-next-generation-ships-and-shipyards",
+      "source_type": "external",
+      "published_at": "2026-09-13T00:00:00Z",
+      "image": {"url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-18_smart-ship-standards-framework.jpg", "type": "generated", "alt": "Illustration of an interconnected smart shipyard using common digital interfaces for vessel systems and manufacturing equipment.", "credit": "Ship Bytes", "source_url": null, "usage": "generated"}
+    }
+  ],
+  "image": {"url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-18_cover.jpg", "type": "generated", "alt": "Illustration of a connected cargo vessel combining satellite links, secure onboard systems and cargo telemetry.", "credit": "Ship Bytes", "source_url": null, "usage": "generated"},
+  "schema_version": 1,
+  "published_date": "2026-09-18"
+}
