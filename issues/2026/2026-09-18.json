@@ -1,0 +1,83 @@
+{
+  "slug": "2026-09-18",
+  "title": "Ship Bytes - 18 September 2026",
+  "subject": "Ship Bytes: tanker cyber response, resilient FPSO links and practical vessel automation",
+  "intro": "This issue covers a real-world investigation into compromised tanker networks, a fleet-scale connectivity agreement for remote FPSOs, and concrete deployments in underwater perception, fleet operations, offshore logistics and propulsion automation.",
+  "stories": [
+    {
+      "slug": "tanker-network-cyber-investigation",
+      "title": "US authorities investigate network compromises aboard two oil tankers",
+      "byte": "FBI and US Coast Guard cyber teams boarded two foreign-flagged oil tankers in August after indications that attackers had compromised their onboard networks.",
+      "summary": "Multiagency cyber teams boarded the vessels in the Gulf of Mexico on 21 and 24 August to assess both operational technology and information technology after reported network breaches. Authorities said there were no reported operational disruptions, vessel instability, danger to crews or environmental impact. The responsible actor has not been identified publicly. Later reporting linked one investigation to VL Prosperity, but claims that propulsion and engine-room systems were manipulated remain unconfirmed by US authorities. The incident is therefore important as a documented shipboard response operation, not as proof of a successful remote takeover of machinery.",
+      "why_it_matters": "The boardings show that vessel cyber incidents can trigger a joint safety, law-enforcement and OT response. Operators need segmented networks, retained logs, tested incident procedures and a clear way to give responders evidence without jeopardising navigation or machinery systems.",
+      "source_name": "Associated Press",
+      "source_url": "https://apnews.com/article/5c61bfec835a790e350f06cffc8f8021",
+      "source_type": "external",
+      "published_at": "2026-09-16T00:00:00Z",
+      "image": {"url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-18_tanker-network-cyber-investigation.jpg", "type": "generated", "alt": "Illustration of cyber specialists assessing shipboard IT and operational systems aboard an energy tanker.", "credit": "Ship Bytes", "source_url": null, "usage": "generated"}
+    },
+    {
+      "slug": "bw-offshore-fpso-connectivity",
+      "title": "BW Offshore signs five-year agreement for managed FPSO connectivity",
+      "byte": "Tampnet will extend managed connectivity from three BW Offshore FPSOs across the wider fleet under a five-year global framework agreement.",
+      "summary": "The agreement gives BW Offshore a standard model for connectivity while allowing the underlying links to be tailored to each FPSO and location. Tampnet says it will combine the best available connections and manage them as one resilient service. The arrangement is intended to support cloud applications, real-time operational data and collaboration between offshore and onshore teams. Tampnet operates offshore fibre, LTE and private 5G infrastructure serving more than 450 fixed and mobile energy assets, but the release does not specify the satellite providers, bandwidths or failover design that will be used on individual units.",
+      "why_it_matters": "FPSOs remain on station for years and increasingly depend on cloud services and remote expertise. A managed multi-bearer model can reduce per-vessel design differences, but IT teams should still demand measurable failover, security and application-performance commitments.",
+      "source_name": "Tampnet",
+      "source_url": "https://www.tampnet.com/press/tampnet-signs-five-year-frame-agreement-for-delivering-connectivity-across-bw-offshores-fpso-fleet?hs_amp=true",
+      "source_type": "external",
+      "published_at": "2026-09-16T00:00:00Z",
+      "image": {"url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-18_bw-offshore-fpso-connectivity.jpg", "type": "generated", "alt": "Illustration of resilient managed connectivity linking remote FPSO assets with shore and cloud systems.", "credit": "Ship Bytes", "source_url": null, "usage": "generated"}
+    },
+    {
+      "slug": "underwater-perception-autonomy",
+      "title": "Robosys integrates forward-looking 3D sonar into autonomous navigation",
+      "byte": "Robosys Automation has connected FarSounder's Argos 3D Forward Looking Sonar to its VOYAGER AI platform so route planning can account for underwater hazards ahead of a vessel.",
+      "summary": "The integration feeds real-time seabed, shallow-water and submerged-obstacle data into VOYAGER AI alongside above-water sensors. Robosys says the platform can use that information in route planning, collision avoidance and vessel-control functions for superyachts, remotely operated craft and uncrewed surface vessels. The combination addresses a limitation of charts and downward-looking echo sounders: neither gives an autonomous system a live three-dimensional view into the water column ahead. No deployment numbers or independent test results were disclosed.",
+      "why_it_matters": "Autonomy is only as useful as its sensor coverage. Feeding forward-looking sonar into the navigation stack can improve decisions in poorly charted or shallow water, but owners will need to validate detection range, false alarms and failure behaviour in their operating envelope.",
+      "source_name": "Digital Ship",
+      "source_url": "https://thedigitalship.com/news/electronics-navigation/robosys-and-farsounder-add-underwater-perception-to-autonomous-navigation/",
+      "source_type": "external",
+      "published_at": "2026-09-17T00:00:00Z",
+      "image": {"url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-18_underwater-perception-autonomy.jpg", "type": "generated", "alt": "Illustration of an autonomous surface vessel using forward-looking 3D sonar to detect submerged rocks.", "credit": "Ship Bytes", "source_url": null, "usage": "generated"}
+    },
+    {
+      "slug": "milahi-fleet-operations",
+      "title": "Noatum Maritime launches unified operations platform for 325 vessels",
+      "byte": "Noatum Maritime's Milahi Centre combines real-time monitoring and analytics across 325 vessels and 60,000 containers, with AD Ports Group targeting up to AED 100 million in annual savings.",
+      "summary": "The Abu Dhabi-developed centre consolidates vessel positions, performance, route data, fuel consumption, safety and risk advisories, situational awareness and market information. AD Ports Group describes it as a single operational view across Noatum Maritime's business and says predictive analytics will support faster fleet decisions. The claimed annual saving, about USD 27 million, is a target rather than a verified result, and the announcement does not disclose the model architecture, data quality controls or how recommendations are audited.",
+      "why_it_matters": "This is a large, concrete fleet deployment rather than a generic AI concept. Its value will depend less on the interface than on normalized data, reliable vessel feeds, role-based access and traceable recommendations that operators can challenge.",
+      "source_name": "Digital Ship",
+      "source_url": "https://thedigitalship.com/news/electronics-navigation/noatum-maritime-targets-aed-100-million-in-savings-with-ai-fleet-platform/",
+      "source_type": "external",
+      "published_at": "2026-09-17T00:00:00Z",
+      "image": {"url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-18_milahi-fleet-operations.jpg", "type": "generated", "alt": "Illustration of a maritime operations centre monitoring a global fleet and container assets in real time.", "credit": "Ship Bytes", "source_url": null, "usage": "generated"}
+    },
+    {
+      "slug": "offshore-logistics-planning",
+      "title": "Spinergie combines offshore personnel, cargo and transport planning",
+      "byte": "Spinergie's new platform puts personnel readiness, cargo, vessel and helicopter movements into one logistics workflow for offshore wind and oil and gas operations.",
+      "summary": "The software checks qualifications, documents, inductions and personnel readiness before people are added to manifests. Coordinators can then schedule vessel and helicopter movements against simultaneous-operations constraints, asset restrictions and certification requirements. Validated plans are distributed to stakeholders, while live manifesting tracks personnel location and status for contractors, control rooms and QHSE teams. Spinergie says the product is already deployed with offshore wind and oil and gas operators, though it gives no customer names or fleet scale. Route planning and weather operability are planned additions.",
+      "why_it_matters": "Offshore logistics often spans separate personnel, aviation, marine and HSE systems. A shared workflow can remove manual reconciliation and improve accountability, provided integrations preserve a reliable source of truth for qualifications and live movements.",
+      "source_name": "Digital Ship",
+      "source_url": "https://thedigitalship.com/news/maritime-software/spinergie-brings-integrated-logistics-planning-to-offshore-energy-operations/",
+      "source_type": "external",
+      "published_at": "2026-09-17T00:00:00Z",
+      "image": {"url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-18_offshore-logistics-planning.jpg", "type": "generated", "alt": "Illustration of an offshore control room coordinating personnel, cargo, vessel and helicopter movements.", "credit": "Ship Bytes", "source_url": null, "usage": "generated"}
+    },
+    {
+      "slug": "inland-vessel-propulsion-control",
+      "title": "ST Sailing Pro adds supervised propulsion control to inland vessels",
+      "byte": "Shipping Technology's ST Sailing Pro automatically adjusts steering and engine power to meet a destination and arrival time while the captain remains in supervision.",
+      "summary": "The level-2 system continuously recalculates course and propulsion using conditions such as locks, currents and water levels. It builds on ST Sailing, which runs on about 200 vessels, and onboard data collected from more than 400 vessels since 2018. After six months on one conventionally propelled vessel under a Dutch Smart Shipping permit, trials have expanded to dry-cargo, tanker and passenger vessels. Shipping Technology claims propulsion control can reduce fuel use by a further 10% beyond the 5% already validated for steering automation; the additional figure has not yet been independently validated in the source report.",
+      "why_it_matters": "Automatic propulsion control moves inland-vessel automation from route keeping into machinery commands. That raises practical integration questions around interfaces, override behaviour, software assurance and how savings are measured across changing river conditions.",
+      "source_name": "MarineLink",
+      "source_url": "https://www.marinelink.com/news/shipping-technology-launches-st-sailing-543037",
+      "source_type": "external",
+      "published_at": "2026-09-17T00:00:00Z",
+      "image": {"url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-18_inland-vessel-propulsion-control.jpg", "type": "generated", "alt": "Illustration of a supervised inland cargo vessel using automatic steering and propulsion control near a lock.", "credit": "Ship Bytes", "source_url": null, "usage": "generated"}
+    }
+  ],
+  "image": {"url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-18_cover.jpg", "type": "generated", "alt": "Illustration of a connected cargo vessel combining secure ship-shore links, underwater sensing and automation.", "credit": "Ship Bytes", "source_url": null, "usage": "generated"},
+  "schema_version": 1,
+  "published_date": "2026-09-18"
+}
