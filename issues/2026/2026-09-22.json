@@ -1,0 +1,113 @@
+{
+  "slug": "2026-09-22",
+  "title": "Ship Bytes - 22 September 2026",
+  "subject": "Ship Bytes: fleet network architecture, vessel cyber ranges and integrated edge platforms",
+  "intro": "This issue examines maritime technology as infrastructure: a 160-vessel multi-bearer network, live NDR and EDR testing on virtual ships, an integrated OT-IoT-edge-cloud architecture, system-level E27 approval, and the growing attack surface at the satellite edge.",
+  "stories": [
+    {
+      "slug": "wagenborg-fleet-it-architecture",
+      "title": "Wagenborg standardises multi-bearer networking and security across 160 vessels",
+      "byte": "Royal Wagenborg is consolidating Starlink, OneWeb, Ku-band VSAT, Iridium Certus and 5G with common onboard IT, firewalling, endpoint management and secure remote access across roughly 160 ships.",
+      "summary": "Royal Wagenborg and De Boer Marine are implementing a multiyear fleet IT programme across approximately 160 owned and managed general cargo vessels. The architecture combines five connectivity underlays—Starlink, OneWeb, Ku-band VSAT, Iridium Certus and terrestrial 5G—with onboard network infrastructure, navigation and communications equipment, upgrades and installation under one management framework. Security controls include firewalls, intrusion prevention, web filtering, endpoint management and secure remote access. De Boer Marine's LinQontrol layer monitors and visualises communications data. The announcement does not disclose SD-WAN policies, segmentation design, identity provider, endpoint platform or performance targets, but it is unusually concrete about the breadth of the common stack.",
+      "why_it_matters": "This is the vessel equivalent of consolidating 160 remote branch offices with intermittent links and decades of hardware variation. The lesson is to manage bearer selection, security, endpoints and remote support as one platform—not as separate satcom, firewall and vessel-electronics projects.",
+      "source_name": "Digital Ship",
+      "source_url": "https://thedigitalship.com/news/maritime-satellite-communications/160-vessel-rollout-puts-integrated-connectivity-and-cybersecurity-at-the-heart-of-wagenborgs-fleet-it/",
+      "source_type": "external",
+      "published_at": "2026-09-01T00:00:00Z",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-22_wagenborg-fleet-it-architecture.jpg",
+        "type": "generated",
+        "alt": "Standardised vessel network routing multiple satellite and cellular bearers into separated crew, business and operational zones across a fleet.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "virtual-vessel-cyber-range",
+      "title": "Virtual-vessel cyber range links live attack response to IACS E26 evidence",
+      "byte": "COONTEC ran seven live attacks against two virtual vessel networks, using NDR and EDR for detection and automated isolation while generating records mapped to IACS UR E26 surveys.",
+      "summary": "COONTEC configured two virtual vessels with network and security equipment resembling real ship environments, established normal traffic and then introduced seven attack scenarios. Its TeraGRID Maritime platform used network detection and response and endpoint detection and response to identify activity, issue alerts and isolate systems according to threat level. The associated KR-CRP platform aggregates detection, blocking, patch and asset-change records against IACS UR E26 requirements. COONTEC says a shipyard pilot reduced preparation of asset inventories and network diagrams from three months to two weeks. Those figures are vendor-reported, but the architecture addresses a real problem: proving that the approved cyber condition was maintained after delivery.",
+      "why_it_matters": "Detection alone is insufficient under E26. Owners need a continuous evidence pipeline covering assets, patches, topology changes and incidents. A cyber range also allows isolation rules and response procedures to be tested without touching safety-critical production equipment.",
+      "source_name": "Digital Ship",
+      "source_url": "https://thedigitalship.com/news/maritime-satellite-communications/coontec-tests-seven-live-cyberattacks-as-shipowners-prepare-for-iacs-e26/",
+      "source_type": "external",
+      "published_at": "2026-08-21T00:00:00Z",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-22_virtual-vessel-cyber-range.jpg",
+        "type": "generated",
+        "alt": "Maritime security team running live cyberattack scenarios against two virtual vessel networks in a cyber range.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "integrated-vessel-edge-security-stack",
+      "title": "Rakuten and ClassNK combine OT, IoT, edge cloud and security in one vessel stack",
+      "byte": "A Rakuten Maritime and ClassNK proof of concept integrated vessel IoT, edge computing, cloud, satellite connectivity and security, reporting 27% better asset identification and 23% higher vulnerability detection.",
+      "summary": "Rakuten Maritime's proposed Total Solution treats vessel digital infrastructure as one stack spanning OT and IoT data acquisition, shipboard edge computing, cloud storage, satellite and mobile connectivity and cybersecurity. A proof of concept cited by Rakuten and ClassNK reported a 400% increase in analysed vessel cyber threats, an 83% reduction in resources used for ship-security design, a 27% improvement in network-asset identification and a 23% increase in vulnerability detection. The public material does not explain the baselines, sample size or measurement methodology, so the percentages should be treated cautiously. The important design idea is stronger: security and asset visibility are built into the same data and connectivity plane used by applications, rather than added as a parallel appliance stack.",
+      "why_it_matters": "Most vessel technology debt comes from isolated systems with separate gateways, data models and support paths. A common edge layer can reduce duplication and improve inventory accuracy, but it becomes critical infrastructure requiring isolation boundaries, lifecycle ownership and controlled application deployment.",
+      "source_name": "Digital Ship",
+      "source_url": "https://thedigitalship.com/news/electronics-navigation/423-4bn-maritime-digitalisation-market-puts-integrated-ship-management-in-focus/",
+      "source_type": "external",
+      "published_at": "2026-09-15T00:00:00Z",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-22_integrated-vessel-edge-security-stack.jpg",
+        "type": "generated",
+        "alt": "Vessel sensors and industrial controllers feeding a secure edge-computing platform connected to satellite and cloud services.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "nexuswave-e27-architecture-approval",
+      "title": "Bureau Veritas assesses NexusWave as an integrated E27 connectivity architecture",
+      "byte": "Bureau Veritas granted IACS UR E27 type approval after assessing NexusWave's onboard ICT architecture, network equipment, orchestration and managed edge as one system spanning GEO, LEO, LTE and L-band.",
+      "summary": "The approval covers more than a satellite terminal. Bureau Veritas evaluated how NexusWave's onboard network equipment, orchestration processes and managed-service edge components work together, following an earlier ClassNK approval against the same E27 revision. NexusWave bonds GEO, LEO, LTE and L-band underlays and incorporates segmentation, encryption and centrally managed security controls. That scope matters because vulnerabilities often appear at boundaries between modem, router, orchestration and remote management—not within one isolated device. Type approval is not a guarantee that a specific ship installation is secure; owners still need vessel-specific integration, configuration and operational controls.",
+      "why_it_matters": "Connectivity is becoming class-relevant shipboard ICT. Procurement teams can no longer evaluate bandwidth separately from orchestration, segmentation, software updates and managed-service access. System-level E27 evidence is stronger than unrelated component certificates.",
+      "source_name": "Smart Maritime Network",
+      "source_url": "https://smartmaritimenetwork.com/2026/09/08/inmarsat-nexuswave-gets-bv-cyber-security-approval/",
+      "source_type": "external",
+      "published_at": "2026-09-08T00:00:00Z",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-22_nexuswave-e27-architecture-approval.jpg",
+        "type": "generated",
+        "alt": "Engineer assessing a bonded multi-network shipboard connectivity and security architecture.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "satcom-edge-device-cyber-risk",
+      "title": "Satellite-linked edge devices emerge as a larger vessel attack path",
+      "byte": "Cydome data reported by the Financial Times says satellite-linked edge devices were involved in 22% of maritime cyberattacks in 2025, up from 3% in 2024.",
+      "summary": "The Financial Times reports that Cydome observed attackers using satellite-connected edge devices in 22% of maritime attacks during 2025, compared with 3% the year before. These devices sit at a consequential boundary: external satellite services terminate beside routers, modems, firewalls and shipboard IT that may have routes toward operational systems. The report also points to vulnerabilities in iDirect equipment covered by a US CISA advisory updated on 10 September 2026. The statistic comes from one vendor's dataset and is not a complete industry-wide incident rate, but the architectural risk is clear: adding Starlink, VSAT and remote-management paths increases externally reachable components unless segmentation and management controls keep pace.",
+      "why_it_matters": "Satcom should be treated as an untrusted WAN, not a trusted appliance. Operators should inventory terminals and modems, restrict management interfaces, patch firmware, isolate crew and OT networks, control remote access and retain logs across the router-firewall-satellite boundary.",
+      "source_name": "Financial Times",
+      "source_url": "https://www.ft.com/content/f73250e7-5759-438c-87b1-9fe1ef5623b1",
+      "source_type": "external",
+      "published_at": "2026-09-18T00:00:00Z",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-22_satcom-edge-device-cyber-risk.jpg",
+        "type": "generated",
+        "alt": "Shipboard satellite modem and segmented network equipment at the vessel's external-connectivity boundary.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    }
+  ],
+  "image": {
+    "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-22_cover.jpg",
+    "type": "generated",
+    "alt": "Cargo vessel represented as a secure distributed computing site with edge servers, segmented IT and OT networks and multiple connectivity bearers.",
+    "credit": "Ship Bytes",
+    "source_url": null,
+    "usage": "generated"
+  },
+  "schema_version": 1,
+  "published_date": "2026-09-22"
+}
