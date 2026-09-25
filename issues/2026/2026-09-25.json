@@ -1,0 +1,94 @@
+{
+  "slug": "2026-09-25",
+  "title": "Ship Bytes - 25 September 2026",
+  "subject": "Ship Bytes: AIS integrity, measured AI navigation and actionable OT risk",
+  "intro": "This issue focuses on the trust boundaries underneath connected navigation and vessel automation: how AIS data can be authenticated at reception, what a measured computer-vision rollout looks like, why exposed interfaces matter more than raw CVE counts, and how an independent authenticated position source can detect GNSS spoofing.",
+  "stories": [
+    {
+      "slug": "ais-data-integrity",
+      "title": "Receiver network flags 1,702 physically impossible AIS position jumps",
+      "byte": "Worldwide AIS Network detected 1,702 impossible AIS jumps across 379 vessels in the Gulf of Oman, including reports displaced more than 12,000 kilometres; its MastChain design authenticates reception points with cryptography and triangulation.",
+      "summary": "Worldwide AIS Network says its receivers recorded 1,702 physically impossible position changes involving 379 vessels between 2 and 9 September. In one example, four tankers observed by a receiver in Varna appeared to transmit 27 reports from the same one-kilometre area in Lima, Peru. The underlying problem is architectural: AIS messages do not include a native authenticity mechanism, while many commercial workflows treat aggregated AIS as authoritative. The company's MastChain approach signs data at the receiving station and combines cryptographic provenance with receiver triangulation. Its network spans more than 40 countries, and some stations also monitor local radio-frequency interference. That does not make the vessel's transmitter trustworthy by itself, but it gives downstream systems evidence about where and by which infrastructure a transmission was observed.",
+      "why_it_matters": "AIS feeds now influence sanctions screening, insurance and fleet monitoring. Integrity controls at data ingress are more defensible than trying to identify impossible tracks after corrupted data has already entered operational systems.",
+      "source_name": "Digital Ship",
+      "source_url": "https://thedigitalship.com/news/maritime-satellite-communications/1702-impossible-ais-jumps-expose-data-risks-for-shipowners/",
+      "source_type": "external",
+      "published_at": "2026-09-23T00:00:00Z",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-25_ais-data-integrity.jpg",
+        "type": "generated",
+        "alt": "Analyst tracing an impossible AIS position jump across a global receiver network.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "orca-ai-navigation",
+      "title": "Eastern Pacific Shipping reports 48% fewer close encounters in Orca AI trial",
+      "byte": "A five-vessel, 130,000-nautical-mile trial of Orca AI's SeaPod reported 48% fewer close encounters per 1,000 nautical miles and a 10% increase in average minimum passing distance.",
+      "summary": "Eastern Pacific Shipping tested Orca AI across two bulk carriers, two container ships and one tanker, covering 130,000 nautical miles and roughly 2,000 navigational events. SeaPod runs alongside radar and ECDIS and uses computer vision to detect and prioritise objects, including small fishing vessels, buoys and other targets that may not transmit AIS. The shore-side FleetView component exposes time-stamped video, manoeuvres, COLREG-related events and giving-way behaviour for review. EPS reports 48% fewer close encounters per 1,000 nautical miles and a 10% rise in average minimum distance during the trial, after 15 crew-training sessions. The company is extending the deployment to dozens more vessels. The figures are operator-reported rather than an independent safety study, but the published scale and integration details make this more than a generic autonomy claim.",
+      "why_it_matters": "This is a concrete edge-AI deployment with bridge integration, shore analytics and measured outcomes. It also shows the value of sensing targets that AIS cannot reveal, while keeping humans responsible for navigation decisions.",
+      "source_name": "Digital Ship",
+      "source_url": "https://thedigitalship.com/news/electronics-navigation/48-fewer-close-encounters-as-eastern-pacific-shipping-expands-ai-navigation/",
+      "source_type": "external",
+      "published_at": "2026-09-23T00:00:00Z",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-25_orca-ai-navigation.jpg",
+        "type": "generated",
+        "alt": "Bridge computer-vision system detecting a small non-AIS fishing vessel in rough seas.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "ot-risk-assessment",
+      "title": "Equipment-level assessments put 60% of sampled ship systems in highest cyber-treatment tier",
+      "byte": "CYTUR says about 60% of the ship systems it assessed required cyber-risk treatment under IACS Recommendation 171, with exposed interfaces and third-party industrial components often driving risk more than raw CVE counts.",
+      "summary": "CYTUR reviewed more than 12 equipment-level implementations from over ten manufacturers across propulsion, safety, automation, navigation, communications and ship IT. In this client-selected sample, 94% were rated Appropriate or Required for treatment under IACS Recommendation 171, with roughly 60% in the Required tier. The useful finding is methodological: vulnerability counts alone did not predict operational risk. One integrated automation system with more than 200 CVEs scored risk 20, while another with about 20 scored 16; both required treatment because exposure and consequence mattered. Assessors also found eight active Ethernet service ports on a serial system, and 80 CVEs distributed across commercial PLC, HMI and I/O components in another implementation. Updates, disabled services, encrypted management and verified configuration reduced one reported score from 20 to 12. CYTUR cautions that the sample is not representative of the entire market.",
+      "why_it_matters": "Vessel OT teams need an asset-and-path view, not a vulnerability spreadsheet. Unused interfaces, reachable management services and embedded third-party devices can dominate risk even when the core controller has few known CVEs.",
+      "source_name": "Digital Ship",
+      "source_url": "https://thedigitalship.com/news/maritime-satellite-communications/94-of-assessed-ship-systems-require-cyber-risk-treatment-cytur-report-finds/",
+      "source_type": "external",
+      "published_at": "2026-09-22T00:00:00Z",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-25_ot-risk-assessment.jpg",
+        "type": "generated",
+        "alt": "Maritime OT engineer auditing exposed Ethernet interfaces and industrial-control components.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "authenticated-pnt",
+      "title": "PntGuard combines Iridium timing with independent GNSS-spoofing detection",
+      "byte": "PntGuard compares a ship's GNSS fix with an authenticated position and timing source delivered through Iridium, producing bridge alerts when it detects spoofing or jamming.",
+      "summary": "PntGuard combines NAL Technologies assured-positioning hardware with Iridium's satellite-delivered positioning, navigation and timing service. Rather than trusting the vessel's primary GNSS receiver in isolation, the unit compares that feed with an independent authenticated source. It can flag spoofing, identify jamming and provide visual and audible bridge alerts while maintaining an alternate position reference. The immediate news is NorthStandard making the system available to members at a discount, but the technical significance is the architecture: detection is based on independent-source comparison rather than only monitoring signal strength or consistency inside the same GNSS chain. It is a resilience layer, not a replacement for bridge procedures, radar cross-checks or other navigation sensors.",
+      "why_it_matters": "GNSS interference is now routine in several trading areas. A separately delivered, authenticated reference gives bridge systems and shore monitoring a stronger basis for distinguishing a bad fix from genuine vessel movement.",
+      "source_name": "Digital Ship",
+      "source_url": "https://thedigitalship.com/news/maritime-satellite-communications/northstandard-gives-members-15-pntguard-discount-for-gnss-resilience/",
+      "source_type": "external",
+      "published_at": "2026-09-24T00:00:00Z",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-25_authenticated-pnt.jpg",
+        "type": "generated",
+        "alt": "Cargo ship comparing disrupted GNSS with an independent authenticated satellite position source.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    }
+  ],
+  "image": {
+    "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-25_cover.jpg",
+    "type": "generated",
+    "alt": "Connected cargo vessel protected by satellite links, navigation sensing and resilient onboard networks.",
+    "credit": "Ship Bytes",
+    "source_url": null,
+    "usage": "generated"
+  },
+  "schema_version": 1,
+  "published_date": "2026-09-25"
+}
