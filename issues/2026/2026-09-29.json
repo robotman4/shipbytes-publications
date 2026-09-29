@@ -1,0 +1,99 @@
+{
+  "slug": "2026-09-29",
+  "title": "Ship Bytes - 29 September 2026",
+  "subject": "Ship Bytes: onboard edge hosting, machine vision, fleet video and a 650-vessel sensor network",
+  "intro": "This issue looks at maritime technology as infrastructure: resilient onboard compute and storage, a machine-vision system that can control physical deck equipment, a fleet-wide video platform combining camera and operational data, and a distributed vessel network collecting real-time maritime awareness data at significant scale.",
+  "stories": [
+    {
+      "slug": "ai-searchlight-tracking",
+      "title": "SEA.AI links machine-vision targets directly to automated searchlights",
+      "byte": "SEA.AI's Sentry system now passes selected thermal and low-light camera targets to Carlisle & Finch's SmartVIEW Gateway, which slews a connected searchlight to the target bearing and keeps the beam tracking it.",
+      "summary": "SEA.AI and Carlisle & Finch have integrated the Sentry machine-vision platform with the SmartVIEW searchlight gateway. Sentry uses thermal and low-light cameras to detect objects such as people in the water, unlit craft and floating debris. After an operator selects a detected target, SmartVIEW consumes the live bearing and tracking data, turns the connected searchlight towards it and continuously adjusts the beam as the target or vessel moves. The integration supports slew-to-cue and active tracking across Carlisle & Finch's searchlight range. Sentry's published hardware specification includes dual 640 x 512 thermal sensors, dual 2592 x 1944 low-light cameras, gyro and digital stabilisation, Ethernet and NMEA 2000 integration, and a detection cycle of ten times per second. This remains human-selected target tracking rather than autonomous rescue or collision avoidance.",
+      "why_it_matters": "This is a useful sensor-to-actuator integration: detections leave the screen and drive physical equipment through a defined gateway. Vessel integrators must now treat camera inference, target identity, bearing data and searchlight control as one safety-relevant data path.",
+      "source_name": "Digital Ship",
+      "source_url": "https://thedigitalship.com/news/electronics-navigation/sea-ai-and-carlisle-finch-link-ai-detection-with-automated-searchlights/",
+      "source_type": "external",
+      "published_at": "2026-09-28T00:00:00Z",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-29_ai-searchlight-tracking.jpg",
+        "sha256": "def9e84ba076504706db43576347fe4134f2ada06ce9e42fb1ad01393107ae3d",
+        "type": "generated",
+        "alt": "Vessel machine-vision system directing an automated searchlight towards a detected person in the water.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "fleet-visual-monitoring",
+      "title": "Newport completes fleet-wide rollout of camera and vessel-data monitoring platform",
+      "byte": "Newport has deployed M2INTELLIGENCE's GVMS across its fleet, giving shore teams live and recorded vessel video while providing the data layer for automated detection, alerts and operational analysis in M2AI.",
+      "summary": "Newport has completed a fleet-wide deployment of M2INTELLIGENCE's Global Vessel Monitoring Solution. GVMS provides shore users with live and recorded access to onboard camera streams for incident review, troubleshooting, inspections and training. M2INTELLIGENCE describes the underlying installation as an end-to-end platform combining specialised cameras in locations such as bridge wings, the wheelhouse, deck and engine spaces with its M2i_Smart software. The same infrastructure feeds M2AI, which combines video with vessel and operational data to generate event detection, alerts, indicators and fleet-level trends. The vendor also supports specialised sensing for temperature, gas, suspect craft and machinery overheating, although the Newport announcement does not identify which of those functions are active on each ship or disclose fleet size, retention periods, link utilisation or security architecture.",
+      "why_it_matters": "Fleet video becomes an IT and security platform once it is centrally accessible and correlated with operational data. Architecture decisions around onboard buffering, bandwidth scheduling, identity, retention, privacy and segmentation matter as much as camera placement.",
+      "source_name": "Smart Maritime Network",
+      "source_url": "https://smartmaritimenetwork.com/2026/09/28/newport-completes-fleet-wide-rollout-of-visual-monitoring-system/",
+      "source_type": "external",
+      "published_at": "2026-09-28T00:00:00Z",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-29_fleet-visual-monitoring.jpg",
+        "sha256": "db657cd307c41cb9f505b48b4d770f35c17dabac7076b2b90ea719b9a809431e",
+        "type": "generated",
+        "alt": "Shore monitoring centre combining live vessel camera streams with operational data and event alerts.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "smartmast-data-network",
+      "title": "Quartermaster expands maritime sensor network after 650-vessel deployment",
+      "byte": "Quartermaster says its SmartMast network is installed on more than 650 working vessels in 25 countries and has observed nearly 46 million square kilometres, with new funding allocated to coverage, engineering and data infrastructure.",
+      "summary": "Quartermaster reports that its SmartMast technology is deployed on more than 650 working vessels across 25 countries, creating a distributed source of real-time maritime activity and visual-awareness data. The network has covered nearly 46 million square kilometres, and the company says its footprint has grown 77% since May. SmartMast installations are intended to support hazard identification, navigation in congested waters and ports, and emergency response. A new $100 million Series B and $40 million debt facility will fund additional coverage, engineering and data infrastructure. Public material does not disclose the exact sensor suite, edge-processing architecture, bearer requirements, data ownership model or API, so the significance is scale rather than a fully documented technical design.",
+      "why_it_matters": "Hundreds of working vessels can form a useful distributed sensing fabric, but the value depends on timestamping, provenance, edge filtering, bandwidth policy and consistent sensor calibration. CTOs should evaluate the data contract and trust model, not only coverage claims.",
+      "source_name": "Smart Maritime Network",
+      "source_url": "https://smartmaritimenetwork.com/2026/09/28/quartermaster-secures-140m-to-expand-maritime-data-network/",
+      "source_type": "external",
+      "published_at": "2026-09-28T00:00:00Z",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-29_smartmast-data-network.jpg",
+        "sha256": "0f427587e934f49b8c56f432430c3b374c00acdbd9c36554e15813f5518aed9e",
+        "type": "generated",
+        "alt": "Rugged vessel sensor mast collecting visual and radio data for a distributed maritime awareness network.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "navarino-edge-hosting",
+      "title": "Navarino details dual-tier edge hosting architecture for vessels",
+      "byte": "Navarino is deploying Synology RackStation and DiskStation systems alongside its Infinity hyperconverged platform to back up virtual machines, host independent applications and retain encrypted vessel data without adding separate servers for each workload.",
+      "summary": "Navarino has detailed the storage and compute architecture supporting its Quazar maritime IT-as-a-Service platform. Infinity remains the primary onboard hyperconverged system for connectivity, network management and virtual servers, while separately sized Synology RackStation and DiskStation units provide an independent failure domain. The secondary systems back up Infinity virtual machines, store documentation and CCTV footage, and natively run third-party applications such as the fleet's backup agent. Built-in AES-256 encryption protects stored operational data, and standardized enterprise drives reduce the spares burden across differing vessel sizes. Navarino applies a 3-2-1 backup policy in satellite-aware transfer windows so replication does not congest the primary ship-shore link. The case study also reports a remote recovery after an array lost drives during an Atlantic crossing, with the remaining system stabilized and the data rebuilt in three days. Synology does not state the fleet count, exact models, RAID layouts or recovery-point targets, so this is an architecture case study rather than a fully specified product launch.",
+      "why_it_matters": "This is recognisable enterprise edge architecture adapted to ships: workload consolidation, a separate backup and compute tier, centralized remote administration and bandwidth-aware data protection. It gives vessel IT teams a practical pattern for reducing single points of failure without returning to one physical server per application.",
+      "source_name": "Synology",
+      "source_url": "https://www.synology.com/en-eu/company/case_study/Navarino",
+      "source_type": "external",
+      "published_at": "2026-09-25T00:00:00Z",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-29_navarino-edge-hosting.jpg",
+        "sha256": "2e9ea7d67d7c0ff9ceb5d679405941b33731640d0230a6d96e6a2585552ede2e",
+        "type": "generated",
+        "alt": "Independent storage and edge-compute server beside a primary onboard hyperconverged platform in a merchant vessel equipment room.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    }
+  ],
+  "image": {
+    "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-09-29_cover.jpg",
+    "sha256": "e2b550613a3643c43abe40a77caab4609ab57145c5bf51eaf142f8a78b5b19db",
+    "type": "generated",
+    "alt": "Connected merchant vessel combining shipboard cameras, sensor feeds, satellite links and shore analytics.",
+    "credit": "Ship Bytes",
+    "source_url": null,
+    "usage": "generated"
+  },
+  "schema_version": 1,
+  "published_date": "2026-09-29"
+}
