@@ -1,0 +1,119 @@
+{
+  "slug": "2026-10-02",
+  "title": "Ship Bytes - 2 October 2026",
+  "subject": "Ship Bytes: fleet cyber response, standardized IoT events and cyber-resilient newbuilds",
+  "intro": "This issue follows the infrastructure underneath connected vessels: a fleet-scale detection-to-response pipeline, a common event model for smart and refrigerated containers, cyber resilience built into a new tanker at design stage, continuous monitoring used as audit evidence, and a maritime information layer that correlates unstructured communications.",
+  "stories": [
+    {
+      "slug": "fleet-cyber-response",
+      "title": "Marlink and NORMA Cyber connect fleet telemetry to managed incident response",
+      "byte": "Marlink is forwarding real-time UTM and endpoint logs from vessels to NORMA Cyber's independent SOC, which triages alerts before escalating actionable incidents back to Marlink for containment and remediation; Höegh Autoliners is deploying the service fleet-wide.",
+      "summary": "Marlink and the Nordic Maritime Cyber Resilience Centre have joined two previously separate layers of fleet security. Marlink's onboard security stack forwards real-time logs from unified threat management and endpoint detection and response systems to NORMA Cyber's security operations centre. NORMA independently analyses and triages the telemetry, then escalates validated incidents to Marlink, which can investigate, contain and remediate inside the onboard environment it manages. The arrangement preserves separation between the party operating the connectivity and security controls and the party monitoring them. Höegh Autoliners is deploying the service across its fleet, turning vessel-by-vessel tools into a defined detection-to-response pipeline rather than a collection of alerts without an owner.",
+      "why_it_matters": "The architectural lesson is the closed loop: shipboard controls produce telemetry, an independent SOC validates it, and a responder with access to the managed vessel environment can act. Clear ownership and evidence hand-off are as important as the firewall or EDR product itself.",
+      "source_name": "Marlink",
+      "source_url": "https://marlink.com/resources/knowledge-hub/marlink-and-norma-cyber-connect-fleet-wide-threat-detection-with-expert-maritime-response/",
+      "source_type": "external",
+      "published_at": "2026-09-29T00:00:00Z",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-10-02_fleet-cyber-response.jpg",
+        "sha256": "37fc5a9a3092fb9fbba05876473d90d300d8079af90ecd99909bcbda8e5e6515",
+        "type": "generated",
+        "alt": "Vessel security telemetry flowing to an independent shore SOC and back to an onboard incident responder.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "dcsa-iot-events",
+      "title": "DCSA Track & Trace 3.0 adds standard events for container IoT and reefer systems",
+      "byte": "DCSA Track & Trace 3.0 introduces IoT events for geolocation, geofences and door state, plus reefer events for temperature, setpoints, power and alarms, with a migration guide for existing 2.2 implementations.",
+      "summary": "The Digital Container Shipping Association has expanded Track & Trace from shipment and equipment milestones into telemetry from connected containers. Version 3.0.0 defines IoT events for geolocation, geofence crossings and door status, and reefer events for temperature measurements, setpoint changes, power state and alarms. It also adds clearer handling for corrected or withdrawn events and supports exchange through carriers, platforms and intermediaries. This is a breaking-enough change that DCSA published value mappings and migration guidance for users of version 2.2.0. Access starts with DCSA members and DCSA+ partners, with a public release planned for the second half of 2027.",
+      "why_it_matters": "IoT projects often fail at the event-contract boundary, not the sensor. A shared vocabulary for measurements, control actions and corrections reduces bespoke mappings between carriers, telematics vendors and customer platforms, but implementers must budget for schema and integration migration.",
+      "source_name": "Digital Container Shipping Association",
+      "source_url": "https://dcsa.org/newsroom/track-and-trace-3-0-0-iot-reefer-visibility",
+      "source_type": "external",
+      "published_at": "2026-09-30T00:00:00Z",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-10-02_dcsa-iot-events.jpg",
+        "sha256": "bcc0f035a7b5e8f9572961f685735ca04338c853f54ec7929d5a51b00ce5c838",
+        "type": "generated",
+        "alt": "Refrigerated container with power, temperature, door and location sensors feeding a common event stream.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "e26-tanker-newbuild",
+      "title": "Chinese MR tanker enters service with UR E26 built into its system architecture",
+      "byte": "Dalian COSCO Shipping Heavy Industry has delivered the 50,000-dwt Zhi Neng Yun Fan with IACS UR E26 compliance and a China Classification Society cyber-security notation covering an integrated smart-ship package.",
+      "summary": "The 50,000-dwt product tanker Zhi Neng Yun Fan has been delivered with cyber resilience treated as a ship-design requirement rather than a later IT retrofit. Liaoning authorities describe it as the first Chinese MR tanker of its size to combine a full smart-ship package, IACS UR E26 compliance and a China Classification Society cyber-security notation. Its connected systems include remote monitoring, voyage and operational management, predictive maintenance, cargo handling and propulsion. Under the E26/E27 model, the engineering scope extends to computer-based-system inventory, network architecture, interfaces, access control, segregation, monitoring, recovery and the ability of critical functions to remain safe when a component or network is compromised.",
+      "why_it_matters": "This is where E26/E27 becomes physical architecture: system suppliers and yards must document trust boundaries and recovery paths before delivery. Owners inherit a designed baseline that can be tested and maintained instead of reconstructing the network after handover.",
+      "source_name": "SAFETY4SEA",
+      "source_url": "https://safety4sea.com/iacs-cyber-resilience-requirements-move-into-ship-design-with-new-mr-tanker/",
+      "source_type": "external",
+      "published_at": "2026-09-30T00:00:00Z",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-10-02_e26-tanker-newbuild.jpg",
+        "sha256": "378c7281cf68c84bde40a804c56ff3e1bc800c2592adeca7ce8e14d9bb3afa6e",
+        "type": "generated",
+        "alt": "New product tanker at a shipyard with segregated bridge, cargo, propulsion and communications network zones.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "continuous-cyber-evidence",
+      "title": "SMT Shipping uses live vessel monitoring data as class-audit evidence",
+      "byte": "SMT Shipping used CyberOwl's Medulla platform to present real-time vessel risk and policy-deviation evidence directly to an independent class auditor, supporting formal cyber certification.",
+      "summary": "SMT Shipping has moved cyber assurance from periodic questionnaires toward continuous technical evidence. CyberOwl's Medulla platform monitors vessel networks for asset exposure, risk and deviations from security policy, and SMT made that live evidence available during an independent class audit. The same fleet view supports remediation planning, crew awareness and insurer discussions. The announcement does not publish the exact class notation, sensor topology or fleet count, so it should not be read as proof that every control is continuously verified. The material change is that network observations from deployed monitoring infrastructure were accepted as auditable evidence instead of relying only on static policy documents and point-in-time checks.",
+      "why_it_matters": "Continuous evidence can reduce the gap between the designed cyber baseline and the vessel's real configuration. For infrastructure teams, that means asset discovery, policy rules and change history must be trustworthy enough to survive third-party audit, not merely generate alerts.",
+      "source_name": "Digital Ship",
+      "source_url": "https://thedigitalship.com/news/maritime-satellite-communications/smt-shipping-leading-the-industry-in-strategic-cyber-risk-management-2/",
+      "source_type": "external",
+      "published_at": "2026-10-01T00:00:00Z",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-10-02_continuous-cyber-evidence.jpg",
+        "sha256": "dc4599fcc0ff729bcb098f83249ab82dd479e3a2904596ede5c146c382a949ad",
+        "type": "generated",
+        "alt": "Vessel cyber engineer and class auditor reviewing live network inventory and policy-deviation evidence.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "unstructured-vessel-data",
+      "title": "Ulysses Finder correlates vessel email, documents and voice into searchable case histories",
+      "byte": "Ulysses Systems' Finder matches unstructured email, text and voice records against models of more than 10,000 maritime processes, grouping related communications into persistent vessel, port-call, defect and maintenance histories.",
+      "summary": "Ulysses Systems has launched Finder as an information layer over the communications that often sit outside structured fleet applications. The platform ingests unstructured sources including email, documents, text and voice-derived content, then uses Ulysses' process models and automated matching to group information around a vessel, port call, defect, inspection or maintenance activity. The company says the model library covers more than 10,000 common maritime processes and traces the technology to research with York University of Canada and IBM Canada. Public material does not disclose the hosting model, connectors, identity controls, data residency or source-citation mechanics, so buyers should treat those as due-diligence items rather than assume enterprise readiness.",
+      "why_it_matters": "The interesting part is not another chat box; it is a correlation layer over fragmented communications. If permissions and provenance are preserved, IT teams can expose operational context without first forcing every message into a new ERP workflow.",
+      "source_name": "Smart Maritime Network",
+      "source_url": "https://smartmaritimenetwork.com/2026/09/30/ulysses-launches-ai-powered-maritime-information-finder/",
+      "source_type": "external",
+      "published_at": "2026-09-30T00:00:00Z",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-10-02_unstructured-vessel-data.jpg",
+        "sha256": "3842f394ce74d132930ab03dd3c1b79d33fa11155013d99e4afe41424f3611cc",
+        "type": "generated",
+        "alt": "Maritime IT analyst correlating vessel email, maintenance documents and voice records into one source-linked timeline.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    }
+  ],
+  "image": {
+    "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-10-02_cover.jpg",
+    "sha256": "dbb22f038444dd414638b5bbd125701daf806f9393310eb430f988376cb2e0a7",
+    "type": "generated",
+    "alt": "Merchant ship operating as a secure network edge with onboard compute, sensors and satellite connectivity.",
+    "credit": "Ship Bytes",
+    "source_url": null,
+    "usage": "generated"
+  },
+  "schema_version": 1,
+  "published_date": "2026-10-02"
+}
