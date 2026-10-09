@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "slug": "2026-10-09",
+  "published_date": "2026-10-09",
+  "title": "Ship Bytes - 9 October 2026",
+  "subject": "Ship Bytes: modular edge servers, onboard security and hybrid satellite-mobile networks",
+  "intro": "Four technology stories this week: refreshable rugged compute, security services delivered on an existing vessel gateway, new spectrum for satellite-terrestrial mobile architecture, and interoperable navigation datasets tested on a working bridge.",
+  "image": {
+    "type": "generated",
+    "alt": "Merchant vessel IT room with onboard compute and network infrastructure.",
+    "credit": "Ship Bytes",
+    "source_url": null,
+    "usage": "generated",
+    "sha256": "862a20ad423cb4d3a9217ed1b7db100dde6331a2c0b2b6ce6783b19eaab342e5",
+    "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-10-09_cover.jpg"
+  },
+  "stories": [
+    {
+      "slug": "modular-rugged-edge-server",
+      "title": "Mercury introduces modular 1U and 2U rugged edge servers",
+      "byte": "Mercury's RES One platform combines stable external interfaces with replaceable CPU, accelerator, storage and security modules for long-lived maritime and industrial systems.",
+      "summary": "Announced on 6 October, RES One separates the enclosure and external integration from components that become obsolete sooner. Its initial 1U and 2U configurations use internal modularity and open architectures to support hardware refreshes without repeatedly redesigning the surrounding installation. Mercury includes its RelianceOne security platform for embedded, containerized, virtual and conventional environments. Maritime is an explicit target, alongside airborne, ground and industrial applications. The announcement does not specify processors, memory limits, environmental qualification or vessel class approval; those still require a configuration-level datasheet.",
+      "why_it_matters": "Stable interfaces with refreshable compute could reduce vessel refit work when storage, accelerators or CPUs need replacing. Qualification and maintainability remain configuration-specific.",
+      "source_name": "Mercury Systems / GlobeNewswire",
+      "source_url": "https://rss.globenewswire.com/news-release/2026/10/06/3375395/18849/en/mercury-introduces-res-one-a-rugged-edge-server-engineered-for-rapid-deployment-and-superior-lifecycle-management.html",
+      "source_type": "external",
+      "published_at": "2026-10-06T12:00:00Z",
+      "image": {
+        "type": "source",
+        "alt": "Mercury RES One rugged edge server in the official product photograph.",
+        "credit": "Mercury Systems",
+        "source_url": "https://www.globenewswire.com/NewsRoom/AttachmentNg/299cdf52-a873-438e-9261-56c5b7601338",
+        "usage": "Official downloadable product photo explicitly supplied with Mercury's 6 October 2026 press announcement for editorial coverage. Branding retained; converted from PNG to JPEG without cropping.",
+        "sha256": "d0428d35d867cc3c5cd0055518342c3e2e9a94b645bca603d93ddd0da0e046e6",
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-10-09_modular-rugged-edge-server.jpg"
+      }
+    },
+    {
+      "slug": "onboard-gateway-security-upgrade",
+      "title": "KVH adds endpoint patching and intrusion prevention to CommBox Edge Pro",
+      "byte": "KVH's new subscription packages add EDR with rollback, asset inventory and patching for more than 600 applications; Network Secure also runs IDS/IPS on the existing gateway and adds DNS filtering.",
+      "summary": "On 8 October, KVH announced Endpoint Secure and Network Secure for CommBox Edge Pro, formerly Edge 6. Endpoint Secure adds vulnerability scanning, hardware/software inventory, automated OS and application patching, and endpoint detection and response with automated rollback. Network Secure includes those functions plus appliance-hosted intrusion detection/prevention and DNS-layer filtering. Existing users can receive the subscription upgrade over the air. Firewalling, segmentation and SD-WAN remain standard platform functions. Custom policies, remediation and 24/7 monitored response are offered through a separate Managed IT service rather than implied by the two packages.",
+      "why_it_matters": "This expands an installed WAN gateway into a security delivery point. MSPs should distinguish automated controls from staffed response and evaluate patch traffic over constrained links.",
+      "source_name": "KVH announcement via American Journal of Transportation",
+      "source_url": "https://www.ajot.com/news/kvh-expands-commbox-edge-pro-offering-with-enhanced-cybersecurity-it-tools",
+      "source_type": "external",
+      "published_at": "2026-10-08T00:00:00Z",
+      "image": {
+        "type": "generated",
+        "alt": "Compact vessel edge gateway and workstation connected through organized Ethernet cabling.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated",
+        "sha256": "37f409946b9184510314c35dddd36784c2efef1bf9bec418ecc2d2813db7ab06",
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-10-09_onboard-gateway-security-upgrade.jpg"
+      }
+    },
+    {
+      "slug": "starlink-mobile-spectrum-architecture",
+      "title": "SpaceX adds 800 MHz spectrum to its planned hybrid mobile network",
+      "byte": "SpaceX announced an agreement for Grain Management's US 800 MHz spectrum portfolio, adding a low-band coverage layer alongside Starlink Mobile's 2 GHz capacity layer; the acquisition requires FCC approval.",
+      "summary": "The 8 October announcement adds up to 14 MHz of paired 800 MHz spectrum to SpaceX's planned satellite-terrestrial mobile architecture. The company positions low-band spectrum as a coverage layer supporting ordinary compatible handsets, alongside higher-capacity 2 GHz spectrum. Separately, the FCC authorized a 15,000-satellite direct-to-device system on 6 October. These are network-development steps, not evidence of an available global maritime service or guaranteed below-deck reception.",
+      "why_it_matters": "Vessel architects should track direct-to-device as a future connectivity layer while retaining independent WAN redundancy and checking device, geographic and service eligibility.",
+      "source_name": "The Verge / SpaceX announcement",
+      "source_url": "https://www.theverge.com/science/1008467/spacex-announces-plan-to-become-a-major-mobile-carrier",
+      "source_type": "external",
+      "published_at": "2026-10-08T00:00:00Z",
+      "image": {
+        "type": "generated",
+        "alt": "Ordinary smartphone on a vessel deck beneath a low-orbit communications satellite.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated",
+        "sha256": "ebfe44a1bf3351bb141d82fd03459330e1ef1955597597de04b243a58ddcdcec",
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-10-09_starlink-mobile-spectrum-architecture.jpg"
+      }
+    },
+    {
+      "slug": "s100-navigation-data-integration",
+      "title": "UKHO tests four S-100 data products in a prototype ECDIS",
+      "byte": "UKHO's fourth Stena Vinga trial combined S-101 charts, S-102 bathymetry, S-104 water levels and S-111 currents in Teledyne Raymarine's prototype S-100 ECDIS.",
+      "summary": "Published on 5 October, the account describes an August trial between Portsmouth and Jersey, with TideTech providing water-level and current modelling. Higher-resolution bathymetry and dynamic water levels were combined to improve the representation of navigable depth compared with fixed S-57 contours. Testing identified gaps in bathymetry coverage, tidal granularity and display portrayal. The result is useful interoperability feedback rather than a production readiness claim: standardized datasets still require adequate coverage, compatible rendering and validation in the receiving system.",
+      "why_it_matters": "S-100 makes navigation a multi-dataset integration problem. Data freshness, coverage and display behavior need acceptance testing alongside the bridge hardware.",
+      "source_name": "UK Hydrographic Office",
+      "source_url": "https://www.admiralty.co.uk/news/inside-trials-testing-s-100-aboard-stena-vinga",
+      "source_type": "external",
+      "published_at": "2026-10-05T00:00:00Z",
+      "image": {
+        "type": "generated",
+        "alt": "Prototype navigation display combining bathymetric depth, water-level and current layers on a ferry bridge.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated",
+        "sha256": "cc5dcb1a2691ae395efe403921bffaad86e8e49631dd78c357b46e48ac243dc3",
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?rlkey=t1aod2y9bdclzg5y0d9y08tk8&dl=1&preview=2026-10-09_s100-navigation-data-integration.jpg"
+      }
+    }
+  ]
+}
