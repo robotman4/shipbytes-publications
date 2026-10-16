@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "slug": "2026-10-16",
+  "title": "Ship Bytes - October 16, 2026",
+  "subject": "Ship Bytes - Edge hosting, industrial gateways and vessel cyber resilience",
+  "published_date": "2026-10-16",
+  "intro": "This edition looks at remote edge hosting, industrial telemetry gateways, shipboard cybersecurity integration and exposed refrigeration control systems.",
+  "image": {
+    "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-10-16_cover.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+    "type": "generated",
+    "alt": "Generated illustration of maritime communications and server infrastructure.",
+    "credit": "Ship Bytes",
+    "source_url": null,
+    "usage": "generated"
+  },
+  "stories": [
+    {
+      "slug": "orbius-staredge-armada-edge-cloud",
+      "title": "Orbius pairs StarEDGE networking with Armada edge hosting",
+      "byte": "Orbius has introduced a StarEDGE offering combining managed multi-LEO connectivity, private Layer 2 connectivity and Armada modular edge data centres for remote computing workloads.",
+      "summary": "The announcement positions connectivity and local computing as a combined managed service for locations where a conventional cloud connection is unreliable or costly. It describes a route from remote edge sites into regional data centres, but does not provide detailed hardware specifications, offline operating guarantees or a named vessel deployment.",
+      "why_it_matters": "Remote-site operators increasingly need applications to keep running locally while network paths change or fail. A managed connectivity-plus-compute offering is worth watching, although its disconnected operation and security boundaries still need technical validation.",
+      "source_name": "Orbius / PR Newswire",
+      "source_url": "https://www.prnewswire.co.uk/news-releases/orbius-unveils-new-edge-cloud-solution-through-its-staredge-platform-to-unlock-ai-anywhere-302906052.html",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-10-16_staredge-armada-edge-cloud.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Generated illustration of modular edge computing and satellite connectivity.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "lantronix-fox5-industrial-iot-gateway",
+      "title": "Lantronix FOX5 brings industrial interfaces and MQTT into a compact cellular gateway",
+      "byte": "Lantronix has introduced the FOX5 series, an LTE Cat 1 bis industrial gateway supporting serial, Modbus and CAN-connected assets, local scripting and MQTT-based integration.",
+      "summary": "The product combines field-equipment connectivity with PFAL and Lua scripting, remote management through Percepxion and security features including secure boot and TLS 1.3. It is positioned for industrial and critical-asset environments; the announcement does not establish a maritime-specific deployment.",
+      "why_it_matters": "A programmable gateway can translate older equipment protocols into modern telemetry without placing a full server beside every machine. For vessels, the practical questions are offline buffering, remote fleet configuration and separation of OT from crew and business networks.",
+      "source_name": "Lantronix",
+      "source_url": "https://www.lantronix.com/newsroom/press-releases/lantronix-fox5-eliminates-costly-downtime-and-blind-spots-for-critical-asset-operators/",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-10-16_fox5-fieldbus-mqtt-gateway.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Generated illustration of an industrial IoT gateway in a control cabinet.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "kvh-commbox-edge-pro-cybersecurity",
+      "title": "KVH expands CommBox Edge Pro with endpoint and network security",
+      "byte": "KVH has announced Endpoint Secure and Network Secure subscriptions for CommBox Edge Pro, adding endpoint management and network detection and prevention capabilities to its vessel networking platform.",
+      "summary": "The offering describes endpoint detection and response, asset inventory, vulnerability scanning, patch management, intrusion detection and prevention, and DNS-layer filtering. KVH says existing CommBox Edge Pro installations can be upgraded remotely. Operators should verify the exact agent coverage, update dependencies and alerting integrations before treating the suite as a replacement for dedicated tools.",
+      "why_it_matters": "Combining vessel WAN management, segmentation and security controls may reduce the number of systems needed to administer a fleet, but also concentrates operational dependence on one platform.",
+      "source_name": "KVH / AJOT",
+      "source_url": "https://ajot.com/news/kvh-expands-commbox-edge-pro-offering-with-enhanced-cybersecurity-it-tools",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-10-16_kvh-commbox-security.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Generated illustration of a maritime network security appliance.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "cert-fr-refrigeration-controller-compromises",
+      "title": "CERT-FR warns of compromises involving internet-exposed refrigeration controllers",
+      "byte": "French cybersecurity authorities report compromises affecting exposed refrigeration-management equipment, including Danfoss AK-SM/AK-SC and Copeland/Dixell xweb systems.",
+      "summary": "CERT-FR recommends restricting management interfaces from the public internet, using secured remote access, applying available updates and replacing default credentials. Unsupported equipment that remains exposed may require isolation or replacement. The advisory does not establish vessel-specific compromises or identify one universally exploited CVE.",
+      "why_it_matters": "Refrigeration controllers are often treated as specialist equipment outside normal IT inventory. Their remote access paths still create an OT attack surface, including in maritime and reefer-related operations.",
+      "source_name": "CERT-FR",
+      "source_url": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-012",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-10-16_refrigeration-ot-security.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Generated illustration of refrigeration control equipment in an industrial cabinet.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    }
+  ]
+}
