@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "slug": "2026-10-20",
+  "title": "Ship Bytes - October 20, 2026",
+  "subject": "Ship Bytes - Offshore LEO networking, OPC UA security and infrastructure recovery",
+  "published_date": "2026-10-20",
+  "intro": "This edition focuses on a phased offshore LEO and managed-network rollout, OPC UA library vulnerabilities, firewall management-plane security and recovery after backup-server compromise.",
+  "image": {
+    "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-10-20_cover.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+    "type": "generated",
+    "alt": "Illustration of a vessel IT room with racks, network infrastructure and offshore facilities beyond a porthole.",
+    "credit": "Ship Bytes",
+    "source_url": null,
+    "usage": "generated"
+  },
+  "stories": [
+    {
+      "slug": "speedcast-sigma-offshore-leo",
+      "title": "Speedcast rolls out Starlink with SIGMA traffic separation across offshore sites",
+      "byte": "Speedcast's 15 October agreement phases an APAC energy operator from standalone Starlink to SIGMA-managed networks with separate crew and corporate traffic, content filtering and VoIP.",
+      "summary": "The unnamed operator's scope spans vessels, drilling rigs, platforms, FPSOs and shore facilities. The contract starts with standalone Starlink on platforms, vessels and fast crew boats, then adds SIGMA-managed Wi-Fi and voice for rigs, followed by fully managed services where needed. SIGMA separates crew internet from prioritized business traffic and adds filtering, VoIP and secure cloud connectivity. This is a contracted phased rollout, not confirmation that every site is already commissioned. The release does not name a second constellation, specify backup paths, disclose site counts or give throughput guarantees. In architectural terms, an all-LEO migration should not be mistaken for independently diverse WANs: vessel IT teams should ask which failure domains remain shared.",
+      "why_it_matters": "The change is centrally managed traffic policy across fixed and floating sites. All-LEO does not establish independent backup paths; those remain unspecified.",
+      "source_name": "Speedcast",
+      "source_url": "https://www.speedcast.com/newsroom/press-releases/2026/apac-leading-energy-operator-selects-speedcast-for-all-leo-connectivity-solution-upgrade-across-onshore-and-offshore-sites/",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-10-20_speedcast-sigma-offshore-leo.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Illustration of satellite antennas and network equipment on an offshore support vessel.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "eclipse-milo-opc-ua-security",
+      "title": "CISA advises Milo 1.1.5 migration for OPC UA authorization and memory flaws",
+      "byte": "CISA's 15 October advisory covers six Eclipse Milo vulnerabilities and recommends 1.1.5. No fixed 0.6.x release exists, so affected integrations on that branch require migration.",
+      "summary": "The advisory concerns the OPC UA stack embedded in Java-based industrial integrations, not a newly launched gateway. One flaw loses the configured RoleMapper when the server configuration is copied, potentially bypassing role checks under the stated conditions. Another mishandles authorization in mixed method-call batches. A transport memory leak can exhaust direct memory after incomplete messages and disconnects; other listed flaws affect credentials and diagnostics. Affected ranges vary across 0.6.0–1.1.4 and 1.0.0–1.1.4. CISA recommends Milo 1.1.5 or later and says no 0.6.x fix exists. The new event is the October advisory, not an assertion that the release or all CVEs are new this week. Check embedded dependency versions, not just appliance firmware labels; there is no vessel-specific exploitation claim.",
+      "why_it_matters": "Embedded protocol libraries belong in the asset inventory. Authorization bypasses and transport-memory exhaustion can affect an OT gateway even when its appliance firmware appears current.",
+      "source_name": "CISA",
+      "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-288-01",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-10-20_eclipse-milo-opc-ua-security.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Illustration of an industrial protocol gateway connected to a controller in an OT cabinet.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "pan-os-management-rce",
+      "title": "PAN-OS fixes exploited management-interface root-code-execution flaw",
+      "byte": "Palo Alto Networks disclosed CVE-2026-0322 on 14 October: an authenticated attacker with management-interface access can execute code as root on affected firewalls and Panorama.",
+      "summary": "The vendor reports very limited exploitation and rates the flaw high severity. It affects PAN-OS on PA-Series and VM-Series firewalls and virtual/M-Series Panorama; Cloud NGFW and Prisma Access are unaffected. Fixed builds are branch-specific: examples include 12.2.4, 11.2.16, 11.1.16-h3 and 10.2.18-h12, with additional hotfix paths in the advisory. Restricting management access to trusted addresses or a dedicated jump host reduces exposure but does not replace the fix. Threat Prevention signatures provide only limited coverage and require the documented management-traffic routing and TLS decryption arrangement. The architectural concern for fleet MSPs is the management plane: a centrally reachable firewall interface can remain exposed even when ordinary vessel traffic is tightly segmented. This is not a report of vessel compromise.",
+      "why_it_matters": "Firewall management needs its own tightly controlled access path. Check the exact branch-specific fixed build; restricting access reduces exposure but does not replace patching.",
+      "source_name": "Palo Alto Networks",
+      "source_url": "https://security.paloaltonetworks.com/CVE-2026-0322",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-10-20_pan-os-management-rce.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Illustration of a firewall appliance with a separately cabled management connection.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "ahsaycbs-backup-recovery",
+      "title": "Ahsay publishes rebuild guidance after backup-server compromises",
+      "byte": "Ahsay's 13 October update recommends rebuilding compromised CBS servers and restoring pre-compromise configuration alongside branch-specific hotfixes—not merely patching the running host.",
+      "summary": "Ahsay says hotfixes 10.3.4.45 and 9.15.2.70 address CVE-2026-105133 and CVE-2026-105134. Those patches preceded the research window; the current item is its 13 October compromise-assessment and recovery guidance. Indicators include unexpected JSP files, unauthorized replication receivers and privileged accounts. For compromised hosts, the vendor recommends reinstalling Windows or Linux, installing the relevant CBS version and hotfix, then restoring an Auto Save configuration predating compromise. Version 7/8 customers are directed through an upgrade to v9 and its hotfix. This is general backup infrastructure guidance, not a maritime incident. For MSPs, inspect replication destinations and administrative identities as well as files: rebuilding the application without validating restored trust relationships could retain an unwanted destination.",
+      "why_it_matters": "The backup control plane is part of the recovery trust boundary. Unauthorized replication receivers and privileged accounts need checking alongside malicious files.",
+      "source_name": "Ahsay",
+      "source_url": "https://www.ahsay.com/en/company/announcements/ahsaycbs-vulnerability-status-update",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-10-20_ahsaycbs-backup-recovery.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Illustration of a backup server with removable storage media on a maintenance bench.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    }
+  ]
+}
