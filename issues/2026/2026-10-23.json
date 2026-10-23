@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "slug": "2026-10-23",
+  "title": "Ship Bytes - October 23, 2026",
+  "subject": "Ship Bytes - Fleet WAN architecture, cyber resilience and shipboard technology",
+  "published_date": "2026-10-23",
+  "intro": "This issue covers a 41-vessel hybrid WAN rollout, a class cyber-resilience evidence platform, robotic ship inspection, standardized radar systems and a digital propulsion-control retrofit.",
+  "image": {
+    "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-10-23_cover.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+    "type": "generated",
+    "alt": "Illustration of a vessel bridge integrating radar, satellite connectivity and shipboard compute infrastructure.",
+    "credit": "Ship Bytes",
+    "source_url": null,
+    "usage": "generated"
+  },
+  "stories": [
+    {
+      "slug": "wallenius-hybrid-wan",
+      "title": "Wallenius Wilhelmsen completes dual-LEO WAN rollout across 41 vessels",
+      "byte": "Soya IT Marine Solutions and Speedcast completed a 41-vessel WAN deployment combining Starlink, Eutelsat OneWeb, Iridium Certus and LTE, with commissioning performed remotely.",
+      "summary": "The completed rollout treats satellite, cellular and L-band services as one managed vessel WAN. Speedcast and Soya IT Marine Solutions describe remote commissioning across 41 Wallenius Wilhelmsen vessels, combining Starlink and OneWeb LEO connectivity with Iridium Certus and LTE. The announcement establishes bearer diversity and deployment scale, but does not disclose SD-WAN policy, routing topology, failover thresholds, application QoS, or how independent the operational failure domains are. These distinctions matter: multiple bearers alone do not prove seamless failover or application-level continuity.",
+      "why_it_matters": "This is a production-scale multi-bearer architecture. Policy, telemetry and failure-domain independence are the important questions for vessel IT teams evaluating similar designs.",
+      "source_name": "Speedcast",
+      "source_url": "https://www.speedcast.com/newsroom/press-releases/2026/soya-it-marine-solutions-selects-speedcast-to-deliver-connectivity-services-supporting-fleetwide-digital-enablement-project-for-wallenius-wilhelmsen/",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-10-23_wallenius-hybrid-wan.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Illustration of dual LEO terminals and multi-WAN equipment aboard a RoRo vessel.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "kr-cyber-resilience-platform",
+      "title": "Korean Register pilots platform linking E26 evidence to class workflows",
+      "byte": "KR-CRP connects cyber-resilience design documents with drawing approval and survey workflows, and can ingest data from third-party onboard security-monitoring systems.",
+      "summary": "Korean Register's pilot cyber-resilience platform joins vessel design records, drawing approval and class survey evidence in one workflow aligned to IACS UR E26. A technical differentiator is its intended ingestion of evidence from third-party onboard security monitoring systems, connecting operational signals to class-assurance documentation rather than relying only on manual uploads. Public material does not specify API contracts, event formats, retention periods, cryptographic provenance or integration scale. The project is described as a pilot, not a fleetwide production deployment.",
+      "why_it_matters": "E26 compliance becomes more sustainable when live controls and design evidence feed the same assurance process. The value depends on provenance, interfaces and change history—not document storage alone.",
+      "source_name": "Smart Maritime Network",
+      "source_url": "https://smartmaritimenetwork.com/2026/10/20/kr-cyber-resilience-platform-pilot-for-iacs-ur-e26-compliance/",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-10-23_kr-cyber-resilience-platform.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Illustration of a marine cyber engineer reviewing vessel-network evidence for a class survey.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "gecko-robotic-ship-inspection",
+      "title": "US Navy expands robotic inspection programme around through-coating deck scans",
+      "byte": "A $300 million contract ceiling expands deployment of Gecko Robotics systems, including Komodo scanners that map corrosion and material thickness through non-skid deck coatings.",
+      "summary": "The US Navy's expanded indefinite-delivery contract can support use of Gecko Robotics inspection systems, including Komodo crawlers that measure steel condition through non-skid coatings without first stripping them. Gecko combines data from robotic crawlers, wall-climbing devices, drones and fixed sensors into location-linked defect maps and asset-condition models. That creates a repeatable sensor acquisition and analytics pipeline rather than a one-off visual inspection. The $300 million figure is the contract's maximum ceiling, not confirmed spend or proof that all planned deployments have occurred.",
+      "why_it_matters": "The architecture turns inspection into a reusable IoT data pipeline: repeatable sensor acquisition, location-linked measurements and longitudinal condition models.",
+      "source_name": "Gecko Robotics",
+      "source_url": "https://www.geckorobotics.com/news/navy-idiq-expansion",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-10-23_gecko-robotic-ship-inspection.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Illustration of a robotic crawler scanning a steel ship deck for corrosion and thickness loss.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "uscg-common-radar-architecture",
+      "title": "US Coast Guard standardizes X- and S-band radar architecture",
+      "byte": "The 10-year NXSSR contract covers Furuno FAR2XX8 solid-state X- and S-band radars for more than 140 cutters and over 400 shore installations, plus common displays and sensor-data software.",
+      "summary": "The Coast Guard's NXSSR programme establishes a common radar and sensor-display baseline across cutters, Vessel Traffic Service sites, Coastal Sentinel installations and training facilities. Furuno's FAR2XX8 solid-state X- and S-band radar equipment is paired with common displays and supporting software, while Nobeltec and partners are to develop navigation software and sensor-data distribution components. The contract spans ten years; individual delivery orders will determine actual installations. The important architectural point is the standardized hardware, software and data-distribution stack, not a claim that every unit has already been upgraded.",
+      "why_it_matters": "Standardization simplifies lifecycle support and integration, but concentrates dependency risk. Common systems require disciplined baselines, staged updates and reproducible configurations.",
+      "source_name": "Furuno USA",
+      "source_url": "https://www.furunousa.com/en/company/news_room/2026_coast_guard_nxssr_program_contract",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-10-23_uscg-common-radar-architecture.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Illustration of standardized solid-state radar, bridge displays and sensor-data distribution equipment.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "bolette-digital-propulsion-control",
+      "title": "Bolette replaces analogue governor with drop-in digital propulsion control",
+      "byte": "Fred. Olsen's Bolette moved from DEGO III to DEGO IV using the same physical size and electrical interface, adding high-frequency logging, live data and a unified commissioning tool.",
+      "summary": "The DEGO IV propulsion governor retrofit aboard Bolette retains the former DEGO III installation footprint and electrical interface while adding digital speed and load control, an upgraded fuel-rack actuator and high-frequency data logging. The DegoAid tool unifies configuration, tuning, diagnostics and monitoring, with stored configurations supporting commissioning and later service. This is a brownfield OT modernization story: minimizing cabling and cabinet changes while expanding software visibility. Public reporting does not establish how remote access is secured or how configurations are backed up, so those remain questions for operators.",
+      "why_it_matters": "This is a useful brownfield OT pattern: preserve electrical interfaces while modernizing observability and support. Protected remote access, configuration backups and change control remain essential.",
+      "source_name": "Seatrade Cruise News",
+      "source_url": "https://www.seatrade-cruise.com/shipbuilding-equipment/qtagg-upgrades-propulsion-control-on-fred-olsen-s-bolette",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-10-23_bolette-digital-propulsion-control.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Illustration of an engineer diagnosing a digital propulsion-control system in a ship engine room.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    }
+  ]
+}
