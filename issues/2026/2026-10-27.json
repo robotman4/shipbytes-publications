@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "slug": "2026-10-27",
+  "title": "Ship Bytes - October 27, 2026",
+  "subject": "Ship Bytes - Maritime cyber intelligence, MCP integration and resilient connectivity",
+  "published_date": "2026-10-27",
+  "intro": "This edition examines a maritime-focused vulnerability repository, MCP access to vessel data, a multi-bearer port connectivity testbed, bridge sensor fusion and remote engine diagnostics.",
+  "image": {
+    "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-10-27_cover.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+    "type": "generated",
+    "alt": "Illustration of a connected cargo vessel with satellite terminals and visible bridge-side edge computing infrastructure.",
+    "credit": "Ship Bytes",
+    "source_url": null,
+    "usage": "generated"
+  },
+  "stories": [
+    {
+      "slug": "maritime-vulnerabilities-repository",
+      "title": "Blue Initiative launches maritime-specific IT and OT vulnerability repository",
+      "byte": "Cydome, ClassNK, Bureau Veritas, MTS-ISAC and Rakuten Maritime launched a free repository that filters CVEs by maritime equipment and vendor, adds reviewed analyst notes and supports vulnerability alerts.",
+      "summary": "The Blue Initiative vulnerability repository focuses on maritime IT and OT assets rather than general-purpose CVE listings. It supports searches and filtering by affected equipment and vendors, analyst-reviewed vulnerability information and alert subscriptions. Its value for vessel operators is in prioritizing exposure across shipboard and port equipment, but effective triage still requires an accurate inventory of products, firmware, software dependencies and deployed versions. A sector-focused database does not establish that a particular vessel is vulnerable or replace patch verification and compensating controls.",
+      "why_it_matters": "Vessel teams gain a sector-focused intelligence layer, but its value depends on mapping entries to maintained inventories, patch states and compensating controls.",
+      "source_name": "Cydome / Blue Initiative",
+      "source_url": "https://www.einnews.com/pr_news/949081485/industry-leaders-launch-world-s-first-maritime-specific-cyber-vulnerabilities-database",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-10-27_maritime-vulnerabilities-repository.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Illustration of a maritime cybersecurity analyst reviewing shipboard IT and OT vulnerability entries beside network and industrial equipment.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "boss-mcp-connector",
+      "title": "BOSS exposes fleet data and route tools through Model Context Protocol",
+      "byte": "Blue Water's AanyaX MCP connector lets compatible assistants call permission-scoped BOSS tools for fleet status, vessel reports, monitoring data, performance models and voyage routing.",
+      "summary": "The AanyaX connector presents BOSS functions as callable Model Context Protocol tools, including vessel particulars, AIS and voyage information, noon and submitted reports, monitoring data, performance models, speed-consumption curves, sea-distance calculations, route optimization and saved voyage plans. Existing client and vessel permissions remain relevant, and large results can be returned as downloadable files. This is a change to the platform integration surface, not merely an AI chat interface. Public documentation does not establish authentication flow, token lifetime, audit logging, per-tool approval or protections against malicious content returned by tools.",
+      "why_it_matters": "MCP turns a maritime platform into a callable tool layer rather than another dashboard. It also creates a new trust boundary requiring least privilege, logging and prompt-injection controls.",
+      "source_name": "Blue Water Trade Winds",
+      "source_url": "https://bwesglobal.com/blog/aanyax-mcp-bring-boss-into-your-ai-workspace/",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-10-27_boss-mcp-connector.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Illustration of a maritime software engineer using an AI workspace connected through a secure gateway to vessel data services.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "resilient-port-connectivity-testbed",
+      "title": "Port of Riga becomes testbed for mobile, non-terrestrial and tactical networks",
+      "byte": "LVR Flote and HARDMODE will test mobile, non-terrestrial, tactical and narrowband communications together in live Port of Riga operations and open the environment to sensor and automation suppliers.",
+      "summary": "The proposed Port of Riga test environment combines mobile, non-terrestrial, tactical and narrowband communications under working-port conditions. Planned applications include infrastructure monitoring, hydrographic surveying, maintenance coordination and navigation support, with an open framework for third-party sensor and automation suppliers. The announcement describes an agreement and testing programme rather than completed results or a production-wide rollout. It does not yet disclose routing and failover policy, latency measurements, encryption, failure-injection procedures or whether power and backhaul dependencies are independent.",
+      "why_it_matters": "Bearer diversity only becomes resilience when shared dependencies and failure modes are measured under realistic conditions.",
+      "source_name": "Smart Maritime Network",
+      "source_url": "https://smartmaritimenetwork.com/2026/10/23/port-of-riga-to-test-resilient-maritime-connectivity-options/",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-10-27_resilient-port-connectivity-testbed.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Illustration of a rugged multi-bearer communications test rack with cellular, satellite and tactical antennas beside a Baltic port.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "berthview-sensor-fusion",
+      "title": "Orca AI and Samsung commercialize retrofit sensor-fusion system for berthing",
+      "byte": "BerthView combines Orca AI's SeaPod target detection with Samsung Heavy Industries' SVISION, using bridge-wing fisheye cameras for a 360-degree close-quarters view and forwarding events to FleetView cloud services.",
+      "summary": "BerthView integrates SeaPod perception and SVISION close-quarters visual assistance, with bridge-wing fisheye cameras, a 360-degree surrounding view, visual distance guidance and a virtual safety boundary for berthing. The system is marketed as available for retrofit, and selected navigational events can be sent to FleetView for shore-side review, investigation, claims handling and training. Its architectural distinction is local perception linked to a cloud event service. Public materials do not specify onboard compute hardware, camera and sensor interfaces, bandwidth requirements, failure-mode handling or redundancy, so these remain procurement questions.",
+      "why_it_matters": "This is a concrete bridge-edge-to-cloud architecture: local perception assists manoeuvring while selected events become fleet data.",
+      "source_name": "Orca AI",
+      "source_url": "https://www.orca-ai.io/resource/orca-ai-launches-a-berthing-assistance-solution-in-collaboration-with-samsung-heavy-industries/",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-10-27_berthview-sensor-fusion.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Illustration of a bridge-wing camera and surround-view display assisting a large ship during close-quarters berthing.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "wide-engine-monitoring",
+      "title": "WinGD extends WiDE remote engine monitoring to 14 LNG carriers",
+      "byte": "Three service agreements cover 14 LNG carriers and several X-DF engine generations, combining WiDE remote monitoring, troubleshooting and optimization with scheduled maintenance and OEM support.",
+      "summary": "WinGD's agreements cover six COSCO LNG carriers equipped with 6X72DF engines, five NYK vessels with 5X72DF and 5X72DF-2.1 engines, and three TMS Cardiff Gas newbuilds with twin 5X72DF engines. The WiDE monitoring and remote troubleshooting service is paired with planned maintenance, spare parts and OEM technical support across multiple engine generations. The fleet scope and heterogeneous engine models are disclosed, but gateway hardware, machinery interfaces, telemetry cadence, local buffering, connectivity requirements and remote-access security controls are not. Those details determine how well the service can operate on intermittently connected vessels.",
+      "why_it_matters": "A multi-generation deployment tests whether remote diagnostics can normalize heterogeneous machinery data without weakening OT segmentation or lifecycle control.",
+      "source_name": "WinGD",
+      "source_url": "https://wingd.com/news-media/news/wingd-secures-long-term-service-contracts-covering-14-dual-fuel-lng-carriers-across-three-major-shipowners-1",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-10-27_wide-engine-monitoring.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Illustration of an engineer reviewing condition trends on a monitoring terminal beside a dual-fuel marine engine and secure gateway.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    }
+  ]
+}
