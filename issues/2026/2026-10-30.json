@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "slug": "2026-10-30",
+  "title": "Ship Bytes - October 30, 2026",
+  "subject": "Ship Bytes - Maritime SBOM, vessel-local AI and data infrastructure",
+  "published_date": "2026-10-30",
+  "intro": "This issue looks at maritime SBOM class recognition, vessel-local CCTV analytics, off-grid coastal edge infrastructure, a tanker data backbone and common operational-data schemas.",
+  "image": {
+    "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-10-30_cover.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+    "type": "generated",
+    "alt": "Connected tanker with satellite links and visible onboard server, network and security infrastructure.",
+    "credit": "Ship Bytes",
+    "source_url": null,
+    "usage": "generated"
+  },
+  "stories": [
+    {
+      "slug": "cytur-sbom-class-approval",
+      "title": "CYTUR-SBOM receives ClassNK and RINA recognition",
+      "byte": "CYTUR-SBOM received ClassNK Innovation Endorsement and RINA Novel Technology Approval for a platform that joins shipboard hardware and software inventories, network topology, CVEs and IACS E26/E27 evidence.",
+      "summary": "CYTUR announced class recognition from ClassNK and RINA for its maritime cybersecurity asset and software bill-of-materials platform. CYTUR-SBOM combines vessel hardware and software inventories, network-topology information and vulnerability intelligence, with a focus on supporting cyber-resilience documentation under IACS UR E26 and E27. These capabilities can connect supplier and onboard asset information to the class evidence process rather than leaving CVE triage and compliance as separate manual workflows. The announcement does not establish that every listed component is continuously discovered or that class approval certifies the security of an individual vessel. Operators should verify approval scope, supported collection interfaces, update cadence and treatment of offline assets.",
+      "why_it_matters": "A maintained maritime SBOM can become the control plane for vulnerability triage and E26/E27 evidence, provided vessel changes and supplier data continuously update it.",
+      "source_name": "CYTUR via The Maritime Executive",
+      "source_url": "https://maritime-executive.com/corporate/cytur-secures-dual-class-recognition-from-japan-and-italy-for-maritime-cybersecurity-solution-cytur-sbom",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-10-30_cytur-sbom-class-approval.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Maritime cybersecurity engineer reviewing shipboard asset inventory, network topology and vulnerability data beside industrial computers and switches.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "evi-crew-first-edge-ai",
+      "title": "EVI adds vessel-local privacy controls to its CCTV AI platform",
+      "byte": "EVI's Crew-First Mode keeps AI detection and alerts on the vessel, blocks routine shore viewing, reuses existing CCTV and retains only minimal event clips when configured rules require them.",
+      "summary": "EVI describes a Crew-First operating mode for its maritime CCTV analytics offering, designed to reuse existing onboard cameras while performing event detection and alerting locally. The published design emphasizes onboard processing, local crew notifications, restricted routine shore access and event-focused retention instead of continuous remote viewing. This changes where video is processed and who can access it, important choices for vessels with intermittent connectivity and privacy requirements. Public product information does not fully specify edge-compute sizing, supported camera protocols, retention configuration or the technical enforcement of shore-access restrictions; these should be verified before treating the architecture as an audited privacy control.",
+      "why_it_matters": "This makes privacy a property of the edge architecture and data flow, not merely a policy promise, while preserving offline operation at sea.",
+      "source_name": "EVI Safety Technology",
+      "source_url": "https://evist.nl/maritime/",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-10-30_evi-crew-first-edge-ai.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Shipboard CCTV camera connected to a local edge computer that alerts crew while routine shore access remains blocked.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "off-grid-maritime-surveillance",
+      "title": "SEA.AI and Oneberry combine edge vision with off-grid power",
+      "byte": "SEA.AI and Oneberry will integrate EO/IR edge vision with EFOY Pro fuel-cell power for off-grid maritime surveillance following an April proof of concept.",
+      "summary": "SEA.AI and Oneberry announced collaboration on coastal and maritime surveillance using electro-optical and infrared sensors, onboard or local edge image processing and autonomous power. The planned system pairs SEA.AI detection technology with Oneberry's surveillance integration experience and EFOY Pro fuel-cell power, reducing dependence on permanent grid connections at remote monitoring sites. The announcement follows an earlier proof of concept and describes planned integration rather than confirmed wide deployment. Public detail does not yet include compute power draw, fuel-cell autonomy, backhaul interfaces, detection performance or environmental qualification. These figures will determine whether the combined design is suitable for unattended maritime installations.",
+      "why_it_matters": "Remote surveillance succeeds or fails as an edge-and-power architecture. Local inference and autonomous power remove two common infrastructure dependencies.",
+      "source_name": "Oneberry Technologies and SEA.AI",
+      "source_url": "https://orientpresswire.com/oneberry-technologies-and-sea-ai-announce-strategic-collaboration-to-advance-maritime-security-solutions-across-southeast-asia/",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-10-30_off-grid-maritime-surveillance.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Off-grid coastal EO/IR surveillance camera with local edge computing and a compact fuel-cell power unit overlooking shipping traffic.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "venergy-vessel-data-backbone",
+      "title": "VENERGY selects DeepSea Vessel Core as tanker fleet data backbone",
+      "byte": "VENERGY Maritime chose DeepSea Vessel Core as the data-cleansing and predictive-modeling backbone for its current fleet and more than 30 planned newbuild tankers.",
+      "summary": "VENERGY Maritime selected DeepSea Technologies' Vessel Core as a common data layer for its operating tankers and more than 30 planned newbuilds. The platform is positioned to collect and cleanse vessel data and feed predictive models and downstream applications, reducing the need for each use case to maintain a separate ingestion and normalization pipeline. The fleet and newbuild scope is concrete, but the announcement does not disclose onboard gateway hardware, OT protocols, local buffering, ship-shore synchronization design, data ownership interfaces or exact rollout milestones. Those implementation details matter most for infrastructure architects deciding whether the platform is an interoperable backbone or another closed data silo.",
+      "why_it_matters": "Selecting the data layer during a newbuild programme can prevent each application from creating its own collection stack, although the edge and interface design will determine interoperability.",
+      "source_name": "DeepSea Technologies",
+      "source_url": "https://www.deepsea.ai/post/venergy-maritime-partners-with-deepsea-technologies-to-strengthen-tanker-fleet-performance",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-10-30_venergy-vessel-data-backbone.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Tanker engineer reviewing normalized machinery and performance data on an onboard server and monitoring workstation.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "ovd-ver-data-frameworks",
+      "title": "BIMCO group releases common vessel-data and emissions schemas",
+      "byte": "BIMCO's industry group released OVD and VER 1.0, defining common operational and fuel-data structures plus standardized emissions results with verification status.",
+      "summary": "An industry group working through BIMCO released version 1.0 of the Operational Vessel Data (OVD) and Verified Emissions Results (VER) frameworks. The specifications aim to give maritime systems common structures for operational and fuel data and for verified emissions results, including verification status. Their infrastructure value lies in making exchange between onboard data collectors, owners, service providers and verification systems less dependent on proprietary field mappings. A published schema alone does not guarantee interoperability: version negotiation, data provenance, identifiers, validation, API transport and change governance will determine adoption. The news is the versioned framework release, not a claim that vessel software suppliers have already implemented it.",
+      "why_it_matters": "A shared schema can reduce bespoke mappings and API glue between ships, owners, vendors and verifiers. Durable governance and versioning will decide whether it becomes dependable infrastructure.",
+      "source_name": "BIMCO",
+      "source_url": "https://www.bimco.org/news-insights/bimco-news/2026/10/27-emissions/",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-10-30_ovd-ver-data-frameworks.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Maritime data engineer validating structured operational and emissions records exchanged between two vessel information systems.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    }
+  ]
+}
