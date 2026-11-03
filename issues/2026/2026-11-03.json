@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "slug": "2026-11-03",
+  "title": "Ship Bytes - November 3, 2026",
+  "subject": "Ship Bytes - Underwater sensor networks, marine gateways and edge computing",
+  "published_date": "2026-11-03",
+  "intro": "This issue covers modular underwater surveillance integration, programmable CAN-to-NMEA 2000 gateways, encrypted onboard IoT data collection and compact shipboard edge computing.",
+  "image": {
+    "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-03_cover.png&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+    "type": "generated",
+    "alt": "Maritime edge computer and network equipment on a vessel with satellite communications at sea.",
+    "credit": "Ship Bytes",
+    "source_url": null,
+    "usage": "generated"
+  },
+  "stories": [
+    {
+      "slug": "saab-ocean-barrier",
+      "title": "Saab launches modular Ocean Barrier underwater sensor network",
+      "byte": "Saab introduced Ocean Barrier, a modular maritime surveillance system that integrates underwater sensors, tracking and external command systems with automatic track handoff.",
+      "summary": "Ocean Barrier is structured into independently deployable Detect, Prevent and Protect layers. Saab describes a sensor-agnostic architecture intended to integrate existing surveillance equipment and demonstrated multi-sensor integration and automatic track handoff during REPMUS 2026. The company has not disclosed the detailed onboard computing architecture or all underlying interfaces. The announcement is a product launch, not evidence of fleet-wide deployment.",
+      "why_it_matters": "Sensor fusion and automatic track handoff can reduce integration friction between otherwise isolated maritime surveillance systems. Operators should validate network separation, interface support and failure modes.",
+      "source_name": "Saab",
+      "source_url": "https://www.saab.com/newsroom/press-releases/2026/saab-launches-ocean-barrier-for-maritime-border-protection",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-03_saab-ocean-barrier.png&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Maritime operator studying vessel tracks and satellite-supported surveillance data.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "mrs-marine-can-nmea2000-gateway",
+      "title": "MRS Marine brings programmable CAN and J1939 data into NMEA 2000",
+      "byte": "MRS Marine's programmable gateways map CAN and J1939 equipment data into NMEA 2000, enabling configurable integration rather than fixed protocol conversion.",
+      "summary": "The Micro Gateway 32-bit provides two CAN FD interfaces, two LIN interfaces and a 9–32 V supply. The MicroPlex variant provides three CAN FD interfaces, one LIN interface and an 8–32 V supply. Integrators can configure mappings through Applics Studio using graphical programming or C code. These are vendor-published product specifications; supported message profiles and deployment-specific mappings need validation.",
+      "why_it_matters": "Programmable gateways can connect proprietary engines, pumps and controllers to marine networks without replacing equipment. Bidirectional mappings must be assessed carefully to avoid unintended control paths.",
+      "source_name": "MRS Marine",
+      "source_url": "https://marine.mrs-electronic.com/marine-solutions/nmea-2000-gateway",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-03_mrs-marine-can-nmea2000-gateway.png&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Shipboard communications and equipment monitoring workstation.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "yachtlink-nmea2000-gateway",
+      "title": "YachtLINK ships NMEA 2000-to-Wi-Fi gateway with encrypted local buffering",
+      "byte": "The YLK-1-WIFI gateway reads engine, tank and position data from NMEA 2000, sends it over encrypted HTTPS and protects buffered microSD data with a per-device AES-256 key.",
+      "summary": "The NMEA 2000-certified gateway uses an ESP32-S3 radio module for 2.4 GHz 802.11 b/g/n, draws no more than 100 mA from a 9–16 V network and supports a drop cable up to six metres. Local storage is encrypted with a key that stays on the device, while factory reset performs cryptographic erasure. The vendor states a 12-month cloud-retention period.",
+      "why_it_matters": "The gateway publishes unusually useful interface, power, radio and data-protection details, exactly what is needed to assess how an IoT bridge changes a vessel network's trust boundary.",
+      "source_name": "YACHTWAVE",
+      "source_url": "https://www.yachtwave.com/yachtlink",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-03_yachtlink-nmea2000-gateway.png&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Maritime communications workstation with network status monitoring.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "gecco-edgepod",
+      "title": "GECCO introduces modular fanless EdgePod maritime computing platform",
+      "byte": "GECCO presented EdgePod, a modular passively cooled maritime edge platform combining local compute, AI acceleration, networking and storage for disconnected shipboard workloads.",
+      "summary": "Green Edge Computing Corp. describes EdgePod as a modular platform for local maritime processing, including sensor fusion, surveillance and distributed ship-to-shore workloads. The vendor claims up to 90% less equipment footprint and 75% lower power and cooling requirements compared with conventional deployments, depending on configuration. These figures are not independently verified. Public materials do not establish hypervisor support, storage redundancy, hardware lifecycle management or exact benchmark methodology.",
+      "why_it_matters": "Reducing rack footprint and cooling load could matter on space-constrained vessels, but virtualization support, resilience, serviceability and measured power draw will decide whether it replaces conventional onboard servers.",
+      "source_name": "GECCO",
+      "source_url": "https://tech.einnews.com/pr_news/953911035/gecco-at-euronaval-2026-with-canadian-made-sovereign-and-secure-maritime-edge-ai-platform",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-03_gecco-edgepod.png&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Fanless industrial edge computer installed in a shipboard equipment rack.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    }
+  ]
+}
