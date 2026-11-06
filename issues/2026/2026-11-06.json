@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "slug": "2026-11-06",
+  "title": "Ship Bytes - November 6, 2026",
+  "subject": "Ship Bytes - Maritime tech news, one byte at a time",
+  "published_date": "2026-11-06",
+  "intro": "This edition examines multi-bearer and dual-band vessel connectivity, exposed shipboard network infrastructure, integrated ferry automation, satellite teleport ownership and faster AIS data delivery.",
+  "image": {
+    "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-06_cover.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+    "type": "generated",
+    "alt": "Connected commercial vessel with onboard compute, satellite links and bridge electronics.",
+    "credit": "Ship Bytes",
+    "source_url": null,
+    "usage": "generated"
+  },
+  "stories": [
+    {
+      "slug": "amazon-leo-canopus",
+      "title": "Can Marine adds Amazon Leo to its managed multi-bearer vessel platform",
+      "byte": "Can Marine will resell Amazon Leo through its Canopus platform, combining the new LEO service with satellite and cellular links, onboard network policy, crew access control and remote management.",
+      "summary": "Can Marine plans to integrate Amazon Leo into Canopus rather than sell it as an isolated WAN connection. Amazon’s announced architecture includes an initial constellation exceeding 3,000 satellites, dedicated fibre-connected gateways and Leo Pro and Leo Ultra terminals. Availability dates, maritime service rates and vessel-terminal qualifications remain undisclosed.",
+      "why_it_matters": "A new LEO underlay becomes more useful when it participates in common vessel traffic policy and remote management. The important detail will be how Canopus steers traffic across Leo, existing satellite services and cellular networks.",
+      "source_name": "Can Marine Systems / Business Wire",
+      "source_url": "https://www.businesswire.com/news/home/20261103839237/en/",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-06_amazon-leo-canopus.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Vessel with LEO satellite and coastal cellular connectivity.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "korea-dual-band-satcom",
+      "title": "South Korean maritime network adds Ka-band alongside its existing Ku-band system",
+      "byte": "A KT SAT-led consortium will upgrade an existing iDirect Ku-band environment and deploy a new Ka-band system using two geographically diverse hubs, Intellian antennas and centralised network management.",
+      "summary": "The architecture preserves the current Ku-band environment while adding Ka-band through the same ST Engineering iDirect ground platform. Two geographically separate hubs provide infrastructure redundancy; KT SAT handles end-to-end delivery, Waldo local integration and Intellian the vessel antennas.",
+      "why_it_matters": "It is a concrete dual-band migration design with hub-level failure-domain separation. Maintaining a common ground platform reduces operational change while enabling a phased move to additional capacity.",
+      "source_name": "ST Engineering iDirect",
+      "source_url": "https://www.idirect.net/news/st-engineering-idirect-kt-sat-waldo-and-intellian-selected-to-advance-secure-maritime-connectivity-for-south-korean-government-project/",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-06_korea-dual-band-satcom.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Dual-band Ka and Ku maritime satellite communications infrastructure.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "shipboard-network-cyber-advisory",
+      "title": "Marshall Islands advisory targets exposed vessel firewalls, routers and VPNs",
+      "byte": "After suspected intrusions on two US-bound vessels, the Marshall Islands Registry told operators to remove internet-facing administration, require MFA, preserve appliance logs and enforce strict IT, OT and crew-network separation.",
+      "summary": "Advisory SSA-08-26 follows two suspected August attacks, one reportedly producing a communications outage of about 30 hours. Its controls include approved-address restrictions, MFA, supported firmware, removal of unused accounts and services, time-limited third-party access, exported logs and preservation of network-appliance evidence before recovery work.",
+      "why_it_matters": "The incidents expose gaps that endpoint protection alone will not solve: publicly reachable management planes, weak remote-access governance, limited appliance-log retention and routes across poorly segmented networks.",
+      "source_name": "Republic of the Marshall Islands Maritime Registry",
+      "source_url": "https://www.register-iri.com/library/",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-06_shipboard-network-cyber-advisory.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Engineer investigating vessel network firewalls and security logs.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "tt-line-integrated-automation",
+      "title": "TT-Line standardises integrated automation on two new LNG-hybrid ferries",
+      "byte": "Valmet will supply a common automation architecture covering machinery, power, bilge and cargo control on two 240-metre Green Ship 2.0 ferries, with remote support and software upgrades included for lifecycle management.",
+      "summary": "The two ferries combine LNG-hybrid propulsion, batteries and shore power. Valmet’s scope integrates the Machine Automation, Power Management, Bilge Control and Cargo Control systems. TT-Line already operates the supplier’s platform on two other vessels, extending a common automation stack across its fleet.",
+      "why_it_matters": "Standardisation simplifies skills, spares and software maintenance but concentrates technical dependency. Remote support, segmentation and upgrade governance therefore become fleet-wide architectural concerns.",
+      "source_name": "Valmet",
+      "source_url": "https://news.cision.com/valmet-oyj/r/tt-line-expands-use-of-automation-in-its-fleet--selects-valmet-to-supply-marine-automation-system-to%2Cc4418678",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-06_tt-line-integrated-automation.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Integrated automation systems in a modern ferry control room.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "speedcast-teleport-infrastructure",
+      "title": "Speedcast moves 12 teleports to infrastructure-as-a-service while keeping managed connectivity",
+      "byte": "SatPort acquired Speedcast’s 12 teleports across 11 countries and five continents; Speedcast will continue using them under a long-term ground-infrastructure service agreement while concentrating development on its SIGMA edge platform.",
+      "summary": "The transaction transfers the physical teleport estate, terrestrial infrastructure and operating teams to SatPort. Speedcast remains a tenant under a long-term agreement and will focus more development on SIGMA, its edge network-management platform for automated deployment across large device estates. SatPort will operate the sites as carrier-neutral LEO, MEO and GEO infrastructure.",
+      "why_it_matters": "The physical satellite layer is being separated from Speedcast’s managed-network control layer. Customers should watch whether this improves multi-orbit flexibility or introduces another supplier boundary during incidents.",
+      "source_name": "Speedcast",
+      "source_url": "https://www.speedcast.com/newsroom/press-releases/2026/speedcast-accelerates-its-strategy-to-ai-enabled-edge-intelligence-with-completed-sale-of-teleport-infrastructure-business-to-satport-infrastructure/",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-06_speedcast-teleport-infrastructure.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Satellite teleport ground infrastructure and managed edge connectivity.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "navfleet-ais-streaming",
+      "title": "NavFleet 2.7.1 streams AIS through NavBox at 5-to-40-second intervals",
+      "byte": "NAVTOR’s NavFleet 2.7.1 uses the onboard NavBox gateway and a proprietary low-bandwidth network to stream AIS positions every 5–40 seconds, replacing previous updates every 15–20 minutes.",
+      "summary": "NavBox captures, packages and transmits vessel AIS data through NAVTOR’s existing ship-shore infrastructure. The phased service can ultimately cover more than 200,000 vessels. Version 2.7.1 also adds operational map layers and wider document-format support, while later releases are expected to introduce track replay and multi-vessel playback.",
+      "why_it_matters": "NAVTOR is extracting another service from an already deployed edge gateway and bandwidth-conscious transport, avoiding a separate high-frequency satellite AIS feed.",
+      "source_name": "NAVTOR",
+      "source_url": "https://www.navtor.com/post/navfleet-2-7-1-see-your-fleet-move-within-seconds-with-ais-streaming",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-06_navfleet-ais-streaming.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Vessel AIS streaming data through an onboard gateway to a fleet operations room.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    }
+  ]
+}
