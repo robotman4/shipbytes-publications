@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "slug": "2026-11-10",
+  "title": "Ship Bytes - November 10, 2026",
+  "subject": "Ship Bytes - Maritime tech news, one byte at a time",
+  "published_date": "2026-11-10",
+  "intro": "This edition focuses on practical connectivity failover, satellite optical links, autonomous edge processing, Ethernet-integrated sensors, verified ship-shore APIs and interoperable maritime data.",
+  "image": {
+    "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-10_cover.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+    "type": "generated",
+    "alt": "Connected commercial vessel with onboard compute, satellite terminals and ship-to-shore data links.",
+    "credit": "Ship Bytes",
+    "source_url": null,
+    "usage": "generated"
+  },
+  "stories": [
+    {
+      "slug": "orion-neo-edge",
+      "title": "Orion NEO EDGE applies traffic policy and automatic failover to a 1 Mbps L-band link",
+      "byte": "Space42 and IEC Telecom combined Thuraya-4 L-band connectivity with OptiView orchestration, using application-aware routing, QoS and automatic failover to preserve selected offshore services on a link of up to 1,024 kbps.",
+      "summary": "The Orion NEO EDGE solution combines a constrained Thuraya-4 L-band link with IEC Telecom's OptiView network orchestration. Published specifications include Gigabit Ethernet, Wi-Fi, PoE, per-application monitoring, policy enforcement and automatic failover. The practical design question is which critical services are allowed onto the lower-bandwidth backup path and how the edge appliance restores normal routing when the primary connection returns.",
+      "why_it_matters": "Link diversity only becomes useful when traffic policy, segmentation, observability and return-to-primary behaviour are managed as one system.",
+      "source_name": "IEC Telecom",
+      "source_url": "https://iec-telecom.com/en/press-release/space42-iec-telecom-offshore-network-intelligence-adipec-2026/",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-10_orion-neo-edge.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Offshore vessel automatically failing critical application traffic over to a constrained L-band satellite link.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "ses-meosphere-optical-link",
+      "title": "SES validates a bidirectional optical ground link for its future meoSphere network",
+      "byte": "SES repeatedly transferred data in both directions between a Cailabs optical ground station and a Mynaric CONDOR terminal on K2's GRAVITAS satellite, with SES-developed automation software operating the Pathfinder 1 mission.",
+      "summary": "SES has demonstrated repeatable two-way optical data transfer between a ground station supplied by Cailabs and a CONDOR optical terminal from Mynaric hosted aboard K2's GRAVITAS satellite. SES-developed mission automation operated the Pathfinder 1 test. The work supports its future meoSphere architecture, although the demonstration is not itself a commercial maritime optical terminal service.",
+      "why_it_matters": "Optical links could increase capacity inside the satellite provider's backbone, but maritime customers should watch weather-diverse ground stations, routing, terminal compatibility and service guarantees.",
+      "source_name": "SES",
+      "source_url": "https://www.ses.com/news/press-release/ses-achieves-optical-communications-milestone-for-future-meosphere-network/",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-10_ses-meosphere-optical-link.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Commercial vessel connected through a MEO satellite to an optical ground station using a laser communications link.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "ubotica-autonomous-scheduling",
+      "title": "Ubotica demonstrates autonomous follow-up imaging from a 6U satellite",
+      "byte": "CogniSAT-6 used Ubotica's onboard CogniSAT-XE2 processing to identify a cruise ship, calculate the next observation opportunity and capture the location again two days later without ground-station tasking.",
+      "summary": "Ubotica demonstrated a closed-loop observation workflow aboard the 6U CogniSAT-6 satellite. Its onboard CogniSAT-XE2 AI processing detected a cruise ship in imagery, calculated a subsequent opportunity to observe the target and initiated a follow-up capture two days later without a new tasking command from the ground. The significance is where the processing and scheduling happen, not merely the vessel-detection model.",
+      "why_it_matters": "Moving detection and tasking into orbit shortens the control loop and reduces full-image downlinks. Model control, false positives, tasking APIs and auditability become infrastructure concerns.",
+      "source_name": "Ubotica",
+      "source_url": "https://www.ubotica.com/news/ubotica-demonstrates-world-first-autonomous-onboard-scheduling-for-earth-observation-satellites-using-orbital-ai",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-10_ubotica-autonomous-scheduling.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "CubeSat performing onboard vessel detection and scheduling a follow-up Earth-observation pass.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "kongsberg-aegir-sonars",
+      "title": "KONGSBERG adds Ethernet-integrated Aegir sonars and a virtual operator",
+      "byte": "KONGSBERG launched the long-range 360-degree Aegir17 and compact matrix Aegir57N, adding Ethernet integration and a Viam-based virtual operator that can detect and track underwater objects without continuous human monitoring.",
+      "summary": "KONGSBERG expanded its Aegir subsea situational-awareness range with the long-range 360-degree Aegir17 and compact matrix Aegir57N. Ethernet integration enables the sonar to connect to wider vessel and infrastructure networks, while a virtual operator developed with Viam automates object detection and tracking. The architecture creates a networked sensor and analytics integration problem involving bandwidth, time synchronisation, segmentation and alarm delivery.",
+      "why_it_matters": "Ethernet integration turns sonar into a networked data source. Integrators must define bandwidth, time synchronisation, model governance, alarm handoff and segmentation between sensing, vessel control and shore monitoring.",
+      "source_name": "KONGSBERG",
+      "source_url": "https://www.kongsberg.com/no/news/news-archive/2026/kongsberg-expands-aegir-ssa-sonar-family-alongside-virtual-operator-for-maritime-security-and-navigation/",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-10_kongsberg-aegir-sonars.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "source",
+        "alt": "KONGSBERG illustration of the Aegir subsea situational-awareness sonar family protecting maritime infrastructure.",
+        "credit": "KONGSBERG",
+        "source_url": "https://www.kongsberg.com/globalassets/kongsberg/news-and-events/news/2026/aegir/kongbserg_aegir-ssa_1920x1080.jpg?rxy=0.5%2C0.5&width=1040",
+        "usage": "Official press-media asset used unchanged under KONGSBERG's media-use terms."
+      }
+    },
+    {
+      "slug": "stormgeo-ccs-api",
+      "title": "StormGeo opens a direct s-Insight API path into CCS verification",
+      "byte": "StormGeo now sends validated emissions data from s-Insight directly to China Classification Society through an API after CCS tested the platform's security, performance and interface adaptation; the service covers about 700 vessels in China.",
+      "summary": "StormGeo and China Classification Society established an API integration that transfers validated emissions records from the s-Insight platform into the classification society's verification workflow. CCS assessed security, performance and interface adaptation before the integration. StormGeo says its service covers roughly 700 vessels in China, making API governance, evidence retention and error reconciliation operational rather than experimental concerns.",
+      "why_it_matters": "Class verification is becoming a system-to-system data flow. Fleet IT teams still need answers about identity, schema versions, rejected records, evidence retention and reconciliation.",
+      "source_name": "StormGeo",
+      "source_url": "https://stormgeo.com/insights/stormgeo-partners-with-china-classification-society-digital-emissions-verification",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-10_stormgeo-ccs-api.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Structured vessel data moving through a secure API from shipboard systems to a classification-verification service.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "ukho-esa-s100",
+      "title": "UKHO and ESA open S-100 data licences for space-enabled service development",
+      "byte": "Eligible ESA BASS projects can receive relevant UKHO S-100 data licences free of charge to combine hydrographic datasets with Earth observation, satellite communications or navigation data and validate new services with early adopters.",
+      "summary": "The UK Hydrographic Office and European Space Agency are making relevant S-100 hydrographic data licences available without charge to eligible ESA Business Applications and Space Solutions projects. The programme supports prototypes combining S-100 datasets with Earth observation, satellite communications and navigation services, with early-adopter validation. This is an access and integration announcement, not a claim that every S-100 dataset has become openly licensed.",
+      "why_it_matters": "S-100 is becoming a shared geospatial interface rather than only a chart format. Production services will need version control, provenance, update distribution and separation of safety-critical and advisory data.",
+      "source_name": "UK Hydrographic Office",
+      "source_url": "https://www.admiralty.co.uk/news/take-s-100-above-and-beyond-navigation-ukho-and-esa",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-10_ukho-esa-s100.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Commercial vessel using interoperable S-100 hydrographic layers combined with satellite observation and navigation data.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    }
+  ]
+}
