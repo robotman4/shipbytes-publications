@@ -5,14 +5,7 @@
   "subject": "Ship Bytes - Underwater sensor networks, marine gateways and edge computing",
   "published_date": "2026-11-03",
   "intro": "This issue covers modular underwater surveillance integration, programmable CAN-to-NMEA 2000 gateways, encrypted onboard IoT data collection and compact shipboard edge computing.",
-  "image": {
-    "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-03_cover.png&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
-    "type": "generated",
-    "alt": "Maritime edge computer and network equipment on a vessel with satellite communications at sea.",
-    "credit": "Ship Bytes",
-    "source_url": null,
-    "usage": "generated"
-  },
+  "image": null,
   "stories": [
     {
       "slug": "saab-ocean-barrier",
@@ -77,14 +70,7 @@
       "source_name": "GECCO",
       "source_url": "https://tech.einnews.com/pr_news/953911035/gecco-at-euronaval-2026-with-canadian-made-sovereign-and-secure-maritime-edge-ai-platform",
       "source_type": "external",
-      "image": {
-        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-03_gecco-edgepod.png&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
-        "type": "generated",
-        "alt": "Fanless industrial edge computer installed in a shipboard equipment rack.",
-        "credit": "Ship Bytes",
-        "source_url": null,
-        "usage": "generated"
-      }
+      "image": null
     }
   ]
 }
