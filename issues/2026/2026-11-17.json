@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "slug": "2026-11-17",
+  "title": "Ship Bytes - November 17, 2026",
+  "subject": "Ship Bytes - Maritime tech news, one byte at a time",
+  "published_date": "2026-11-17",
+  "intro": "Maritime private networking, type-approved onboard edge infrastructure, inherited-system security, Exchange Online workflow resilience and offline-first vessel applications.",
+  "image": {
+    "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-17_cover.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+    "type": "generated",
+    "alt": "Container vessel and connected port infrastructure linked through edge compute, private wireless and cloud services.",
+    "credit": "Ship Bytes",
+    "source_url": null,
+    "usage": "generated"
+  },
+  "stories": [
+    {
+      "slug": "seait-vessel-weather-visibility",
+      "title": "Sea IT puts vessel weather visibility into the fleet IT conversation",
+      "byte": "Sea IT highlights the question of weather conditions along a vessel’s voyage. Its documented Portal map already displays wind and cloud overlays alongside vessel positions, with AIS ingestion and map-based distance and area tools.",
+      "summary": "Sea IT’s linked Maritime Pulse edition focuses on weather encountered by vessels. Separately, Sea IT documents weather layers for wind and cloud coverage in the Sea IT Portal, plus AIS-based vessel positioning and map measurement tools. Together, those capabilities illustrate how environmental context can be presented next to fleet data rather than in a separate tool. The linked Mailchimp edition could not be retrieved for content verification, so this draft deliberately avoids claiming new forecast, routing or alerting features.",
+      "why_it_matters": "A useful customer conversation: can fleet IT expose vessel position and weather context in one interface, with clear data timestamps and sources? Confirm the newsletter’s exact feature claims before publication.",
+      "source_name": "Sea IT / Maritime Pulse",
+      "source_url": "https://mailchi.mp/seait.com/what-weather-will-your-vessel-sail-through",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-17_seait-vessel-weather-visibility.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "source",
+        "alt": "Sea IT vessel voyage weather forecast map with wind barbs, wave heights, navigation route and vessel data overlays.",
+        "credit": "Sea IT",
+        "source_url": "https://mailchi.mp/seait.com/what-weather-will-your-vessel-sail-through",
+        "usage": "Original Sea IT image supplied by user, with explicit permission for Ship Bytes republication."
+      }
+    },
+    {
+      "slug": "marlink-xchange-e27",
+      "title": "Marlink XChange NextGen gains Bureau Veritas type approval under IACS UR E27",
+      "byte": "Marlink secured Bureau Veritas type approval for its XChange NextGen vessel edge platform under IACS UR E27 Rev.1 and BV NR659, covering onboard cyber capabilities and secure software maintenance and update processes within the approved scope.",
+      "summary": "XChange NextGen consolidates edge compute, local application hosting, network management, connectivity, cybersecurity and cloud services in a shipboard platform. Its new Bureau Veritas type approval concerns individual equipment and system resilience under IACS UR E27 Rev.1 and BV NR659. It assesses cybersecurity capabilities and lifecycle processes for development, maintenance and updates within the stated certificate scope. It does not by itself establish vessel-level compliance with UR E26.",
+      "why_it_matters": "A direct customer and engineering discussion: request the certificate and exact approval scope, then compare lifecycle update, hardening, recovery and remote-management evidence against our own vessel platform.",
+      "source_name": "Marlink",
+      "source_url": "https://marlink.com/resources/knowledge-hub/marlink-secures-iacs-ur-e27-cyber-resilience-certification-for-xchange-nextgen/",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-17_marlink-xchange-e27.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Vessel IT engineer reviewing an industrial edge server and network switches in an onboard equipment room.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "maersk-legacy-system-breach",
+      "title": "Maersk isolates inherited legacy system after unauthorised access and data extraction",
+      "byte": "Maersk disclosed unauthorised access to a local legacy system inherited through an acquisition, confirmed data extraction and isolated the system while reporting no evidence of impact to API or EDI integrations.",
+      "summary": "Maersk said the incident was confined to a local legacy environment inherited from an acquired company. The affected system was isolated while internal and external specialists investigated. At disclosure time, Maersk reported no indication that other systems or customer and partner API/EDI connections were affected. The vulnerability and extracted data set were not publicly identified.",
+      "why_it_matters": "Acquired systems often sit outside standard identity, patching and observability controls. Segmentation limited the stated blast radius, but inherited assets still require explicit ownership and retirement plans.",
+      "source_name": "A.P. Moller - Maersk",
+      "source_url": "https://www.maersk.com/news/articles/2026/11/11/it-security-incident",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-17_maersk-legacy-system-breach.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Security team isolating an older server enclosure from a modern port IT environment after detected data extraction.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "exchange-case-ingestion-outage",
+      "title": "Exchange Online outage exposes email-to-case dependency in Maersk customer workflows",
+      "byte": "A Microsoft Exchange Online disruption delayed external email reaching Maersk service addresses and therefore delayed automatic case creation, while phone and live chat remained available.",
+      "summary": "External messages to Maersk Customer Experience addresses were delayed, which also slowed case creation and processing in the downstream case-management system. Phone and live chat provided separate intake paths. Microsoft’s preliminary reporting attributed the broader Exchange Online incident to a failure in systems responsible for establishing service connections.",
+      "why_it_matters": "Email ingestion is an application integration, not merely a mailbox. Critical workflows need queued delivery, observable backlogs and alternate intake channels that do not share the same cloud dependency.",
+      "source_name": "A.P. Moller - Maersk",
+      "source_url": "https://www.maersk.com/news/articles/2026/11/13/potential-delays-in-customer-email-processing",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-17_exchange-case-ingestion-outage.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Maritime customer-service centre routing phone and chat around a failed email-to-case cloud integration.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "weathernews-offline-mirror",
+      "title": "Weathernews adds scheduled offline data mirroring to SeaNavigator for Master",
+      "byte": "Weathernews released a Data Mirror Manager companion for SeaNavigator that caches selected sea-area forecasts for 7-14 days, schedules up to four daily syncs and automatically falls back to timestamped local data when the vessel link fails.",
+      "summary": "Masters can select weather layers, geographic areas and a 7-to-approximately-14-day forecast horizon; the companion application estimates transfer volume and can schedule downloads four times daily. SeaNavigator automatically uses the stored forecasts and passage-plan data when connectivity drops, displays data freshness, and resumes live data when available. Route simulation and AI Agent features remain online-only. Weathernews also supports installation from shore or USB when onboard downloads are impractical. Trials reported VSAT latency over 1,000 ms and failed route imports on unreliable links.",
+      "why_it_matters": "A reusable vessel software pattern: bounded prefetch, scheduled bandwidth-aware sync, local read-only fallback, freshness indicators and explicit online-only feature boundaries. Worth copying into our shipboard application and update designs.",
+      "source_name": "Weathernews",
+      "source_url": "https://sea.weathernews.com/resources/202611/296",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-17_weathernews-offline-mirror.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Ship bridge workstation retaining cached forecast and routing information on local storage during loss of satellite connectivity.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    }
+  ]
+}
