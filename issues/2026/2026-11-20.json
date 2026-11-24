@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "slug": "2026-11-20",
+  "title": "Ship Bytes - November 20, 2026",
+  "subject": "Ship Bytes - Maritime tech news, one byte at a time",
+  "published_date": "2026-11-20",
+  "intro": "Fleet asset discovery and vulnerability management, VDES ship-shore route exchange, connected marine engineering data, electronic navigation logbooks and federated digital seafarer credentials.",
+  "image": {
+    "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-20_cover.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+    "type": "generated",
+    "alt": "Connected cargo vessel linking onboard compute, satellite and VHF communications with shore systems.",
+    "credit": "Ship Bytes",
+    "source_url": null,
+    "usage": "generated"
+  },
+  "stories": [
+    {
+      "slug": "gt-identify-asset-visibility",
+      "title": "GT Identify maps onboard assets and correlates fleet vulnerabilities",
+      "byte": "GTMaritime launched GT Identify on its GT Hub platform to discover onboard hardware and software, correlate versions against trusted CVE sources and give shore teams a fleet-wide inventory with monthly summaries of unmanaged assets, new endpoints and vulnerabilities.",
+      "summary": "GT Identify is built for distributed vessel environments where asset records often live in spreadsheets or supplier documents. It automatically discovers and analyses onboard systems, records hardware specifications and software versions, and presents the results centrally by vessel, endpoint and version. Vulnerability reporting checks the inventory against trusted CVE databases, while monthly fleet summaries highlight unmanaged assets, newly detected endpoints, unsupported software and other changes. GTMaritime positions the module as evidence support for the Identify function of the NIST Cybersecurity Framework, IMO cyber-risk expectations and IACS UR E26 governance; it does not replace a vessel-level risk assessment or remediation process.",
+      "why_it_matters": "Accurate asset and version data is the prerequisite for patching, segmentation and incident response. The useful architectural question is how discovery traffic, inventory updates and CVE intelligence are moved across intermittent vessel links without creating a new management-plane risk.",
+      "source_name": "GTMaritime",
+      "source_url": "https://gtmaritime.com/products/gt-identify/",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-20_gt-identify-asset-visibility.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Vessel IT engineer reviewing fleet asset and vulnerability information beside onboard network equipment.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "ihi-vdes-route-exchange",
+      "title": "IHI demonstrates two-way VDES route exchange between shore and two vessels",
+      "byte": "IHI used domestically developed VDES terminals in Mikawa Bay to send recommended routes from a simulated VTS station to two vessels, display the routes onboard and return each vessel's acceptance status to shore and the other ship.",
+      "summary": "VDES extends AIS-style VHF communications into a two-way digital data network spanning ships, shore stations and satellites. In IHI's November demonstration, a shore station transmitted recommended-route data to two vessels; bridge applications displayed the route, and the vessels shared acceptance or rejection status with the VTS station and each other before manoeuvring. IHI says the work supports a wider project covering ship, shore and satellite links plus a data platform for aggregated maritime information. The company is targeting technology establishment by the end of fiscal 2029, while VDES terminals are expected to become eligible as an AIS alternative under SOLAS from 2028.",
+      "why_it_matters": "VDES is not just higher-capacity AIS. It introduces authenticated, application-level ship-shore data exchange that bridge, VTS and fleet-system architects will need to integrate, monitor and secure alongside existing navigation networks.",
+      "source_name": "IHI Corporation",
+      "source_url": "https://www.ihi.co.jp/en/all_news/2026/aeroengine_space_defense/1202272_13820.html",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-20_ihi-vdes-route-exchange.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Two vessels exchanging recommended routes with a coastal traffic station over VHF data links.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "aveva-marine-digital-thread",
+      "title": "AVEVA joins engineering and lifecycle data in next-generation Marine Design to Build",
+      "byte": "AVEVA's December release will combine Unified Engineering for Marine with Asset Lifecycle Management, linking multidisciplinary design, requirements, changes and deliverables while adding an AI assistant, generative design, predictive tools and planned MCP Server integration.",
+      "summary": "Marine Design to Build brings AVEVA Unified Engineering for Marine and AVEVA Asset Lifecycle Management into one shipbuilding workflow. Unified Engineering aligns hull, outfitting, structural, electrical and systems disciplines around shared information; ALM manages requirements, changes, deliverables and engineering records across the vessel lifecycle. Embedded functions include an AI assistant, generative design and predictive design tools, and AVEVA says an MCP Server integration is being developed to connect engineering workflows with customer-selected AI models and proprietary knowledge. The product is scheduled for release in December 2026, so deployment evidence and production performance are not yet available.",
+      "why_it_matters": "The technical value is continuity of the vessel data model, not generic AI. Better change traceability and structured handover data can reduce the gap between yard systems and the documentation, maintenance and digital-twin platforms used after delivery.",
+      "source_name": "AVEVA",
+      "source_url": "https://www.aveva.com/en/about/news/press-releases/2026/aveva-launches-next-generation-marine-design-to-build-solution-in-malmo-sweden-to-increase-shipbuilding-productivity/",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-20_aveva-marine-digital-thread.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Shipyard engineers reviewing a connected digital vessel model spanning multiple engineering disciplines.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "china-electronic-logbook",
+      "title": "China trials electronic navigation logbook with ship-shore sync and signed records",
+      "byte": "China's Ministry of Transport says a new electronic navigation logbook automatically captures vessel information, synchronises records to shore and uses digital signatures plus blockchain-backed evidence; four cargo ships have completed trials ahead of wider testing in January 2027.",
+      "summary": "The system was organised by Tianjin MSA with Dalian Maritime University, China Merchants Energy Shipping and the Tianjin branch of China Classification Society. It replaces manual transcription with automatic capture of basic vessel information and data return to shore. Digital signatures confirm entries, while blockchain evidence is used to protect record authenticity and support regulatory or port-state inspection. Four cargo ships have completed initial trials, and broader trials across vessel types, tonnages and routes are planned for January 2027. The release does not identify the onboard interfaces, data schema or offline-conflict model, so those remain important implementation questions.",
+      "why_it_matters": "A statutory logbook is a high-integrity edge application. It must collect OT data, keep working offline, preserve an auditable local record and reconcile with shore without allowing later edits to undermine evidentiary value.",
+      "source_name": "Ministry of Transport of the People's Republic of China",
+      "source_url": "https://www.mot.gov.cn/xinwen/jiaotongyaowen/202611/t20261118_4227952.html",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-20_china-electronic-logbook.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Bridge officer confirming an automatically populated electronic navigation logbook entry.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "isf-verify-certificates",
+      "title": "ISF Verify keeps certificate data with flag states while seafarers control access",
+      "byte": "The ITF joined the ISF Verify rollout, which uses real-time queries to issuing-administration databases rather than a central certificate store and lets seafarers grant or withdraw access through a free mobile app.",
+      "summary": "ISF Verify is a cloud connector developed by the International Chamber of Shipping and Lloyd's Register OneOcean for seafarers, flag administrations, port-state control and shipping companies. Certificate data remains in the issuing administration's database and is queried in real time; the platform is explicitly not a central certificate database. Seafarers use a mobile application to access credentials, decide who can view them and revoke access. The ITF's participation adds operational input and potential reach across roughly one million seafarers in more than 100 countries, following a completed proof of concept with the Philippines' MARINA.",
+      "why_it_matters": "The federated model avoids copying every credential into one central repository, but it shifts reliability and identity requirements to APIs, issuing authorities and mobile access. It is a useful maritime example of verifiable data without wholesale data centralisation.",
+      "source_name": "International Chamber of Shipping",
+      "source_url": "https://www.ics-shipping.org/press-release/itf-joins-isf-verify-to-help-scale-trusted-digital-seafarer-certification-worldwide/",
+      "source_type": "external",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-20_isf-verify-certificates.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Seafarer using a mobile application to control access to digital certificates.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    }
+  ]
+}
