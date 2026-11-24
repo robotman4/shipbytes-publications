@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "slug": "2026-11-24",
+  "title": "Ship Bytes - November 24, 2026",
+  "subject": "Ship Bytes - Maritime tech news, one byte at a time",
+  "published_date": "2026-11-24",
+  "intro": "Direct vessel-to-vessel 5G, satellite links to ordinary phones, Arctic VDES services, centrally managed bridge displays and offline-first onboard applications.",
+  "image": {
+    "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-24_cover.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+    "type": "generated",
+    "alt": "Commercial vessels using onboard edge compute, private wireless, satellite links and shore-cloud synchronisation.",
+    "credit": "Ship Bytes",
+    "source_url": null,
+    "usage": "generated"
+  },
+  "stories": [
+    {
+      "slug": "ship-to-ship-5g",
+      "title": "Ship-to-ship standalone 5G trial sustains links at 10.46 km",
+      "byte": "A 5G COMPAD trial connected two moving patrol vessels through industrial-grade standalone 5G cores, routers and three-sector antenna systems, maintaining an operational line-of-sight link at distances up to 10.46 km in the Gulf of Riga.",
+      "summary": "LMT, Thales Italia and CNIT tested direct ship-to-ship 5G using industrial-grade cores on two Latvian patrol vessels. Each setup used three directional antenna sectors, routers and a collection server; the researchers measured reference-signal received power while both vessels moved. The study separated short-range operation below 2 km, a 2-10 km regime and beyond-line-of-sight conditions above 20 km, then compared field measurements with propagation models. It also identifies Physical Cell Identity allocation as a fleet-scale engineering constraint: large groups of mobile 5G cells will need coordinated identifiers and frequencies to prevent self-interference.",
+      "why_it_matters": "This is a credible broadband path for local sensor sharing, drone control and fleet coordination without using satellite capacity. The harder production problem is automated spectrum, PCI and topology management as vessels join and leave the mesh.",
+      "source_name": "LMT / IEEE Access",
+      "source_url": "https://www.lmt.lv/en/innovations/news/5g-compad-validates-high-speed-ship-to-ship-5g-networks-for-maritime-defence",
+      "source_type": "external",
+      "published_at": "2026-11-23T00:00:00Z",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-24_ship-to-ship-5g.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Two patrol vessels testing a direct ship-to-ship 5G radio link at sea.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "d2d-satellite-sea-route",
+      "title": "Standard LTE phones connect directly to LEO satellites on Philippine sea route",
+      "byte": "Smart Communications and Elveo Mobile tested direct-to-device satellite service aboard cargo vessels between Batangas and Calapan, using ordinary LTE smartphones to send texts, receive emergency broadcasts and load websites over a LEO link.",
+      "summary": "The trial ran on working cargo vessels travelling between Batangas Port and Calapan City, outside consistent terrestrial coverage. Unmodified LTE smartphones connected directly to Elveo Mobile's low-Earth-orbit satellites and demonstrated bidirectional messaging, emergency broadcast reception and limited mobile-data access to public websites. The companies present this as an evaluation rather than a commercial maritime service with published throughput, latency, coverage or availability guarantees.",
+      "why_it_matters": "Direct-to-device service could add a low-friction emergency and crew-communications layer without a dedicated ship terminal. Vessel IT teams still need clarity on roaming, traffic priority, device policy, coverage windows and how D2D coexists with managed onboard Wi-Fi and satcom.",
+      "source_name": "Smart Communications and Elveo Mobile",
+      "source_url": "https://www.prnewswire.com/news-releases/smart-and-elveo-mobile-successfully-test-direct-to-device-satellite-connectivity-on-key-philippine-sea-route-302947592.html",
+      "source_type": "external",
+      "published_at": "2026-11-23T13:31:00Z",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-24_d2d-satellite-sea-route.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Crew member using an ordinary smartphone linked directly to a LEO satellite from a cargo vessel.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "arctic-satellite-vdes",
+      "title": "Space Norway tests satellite VDES with validated AIS and vessel weather data in the Arctic",
+      "byte": "Space Norway and the Nansen Centre used satellite VDES aboard KV Svalbard to receive validated AIS data beyond local radio range and collect weather measurements from onboard equipment for server-side storage and future redistribution.",
+      "summary": "During a High Arctic expedition, KV Svalbard used Space Norway's satellite VDES capacity to receive AIS information that had been validated by shore-based systems and forwarded beyond the vessel's own VHF range. The project also collected air temperature, wind, wave, pressure, precipitation and ice-thickness data from onboard equipment, initially storing the observations on a server before planned distribution to weather services and other vessels. VDES carries AIS, application-specific messages and bidirectional VDE traffic over maritime VHF, with satellite coverage extending the low-bandwidth channel offshore. Space Norway says commercial ship equipment is expected during 2027 and can combine AIS and VDES functionality without requiring an additional antenna in the planned replacement path.",
+      "why_it_matters": "VDES is becoming a practical authenticated data path for remote waters, not just a successor label for AIS. Fleet architects should plan message schemas, trust validation, sensor gateways, buffering and clear boundaries between advisory data and safety-critical bridge systems.",
+      "source_name": "Space Norway",
+      "source_url": "https://spacenorway.com/news/vdes-technology-tested-on-a-voyage-to-the-north-pole/",
+      "source_type": "external",
+      "published_at": "2026-11-18T00:00:00Z",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-24_arctic-satellite-vdes.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Ice-capable vessel exchanging validated maritime data and weather observations over satellite VDES in the Arctic.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "fortec-dg-marine-displays",
+      "title": "FORTEC links up to 18 marine displays over one RS485 control chain",
+      "byte": "FORTEC's Nottrot DG Series uses RS485 N-Com to daisy-chain and centrally adjust as many as 18 bridge or control-room monitors from a PC, PLC or optional touchscreen controller, with deep dimming and stored presets.",
+      "summary": "The DG Series spans 18.5-, 24-, 27- and 55-inch full-glass marine monitors. RS485 N-Com serial control lets an integrator address brightness and display parameters across a chain rather than configuring each screen locally; an NControl panel can store presets. The three smaller models provide HDMI, DVI-I and DisplayPort inputs, Full HD panels, anti-glare glass and standard optical bonding, while the 55-inch version is 4K with optional bonding. Published brightness reaches 1,000 cd/m2 on the 18.5-inch model and 1,500 cd/m2 on the 24-inch model, with deep dimming down to black. DNV type approval and applicable IEC 60945 testing were still described as being in their final stages, so buyers should verify the issued certificate and exact model scope.",
+      "why_it_matters": "This is a small but useful infrastructure change for integrated bridges: centralised display control reduces configuration drift and gives automation systems a defined interface. Serial topology, address management, failure isolation and class scope need to be designed into the console rather than treated as display details.",
+      "source_name": "FORTEC UK",
+      "source_url": "https://www.fortec.uk/blog/Nottrot-DG-Series-Marine-Monitors",
+      "source_type": "external",
+      "published_at": "2026-11-19T00:00:00Z",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-24_fortec-dg-marine-displays.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Marine bridge displays linked to a PLC and central controller for coordinated brightness and configuration.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    },
+    {
+      "slug": "seafy-inventra-offline-first",
+      "title": "Seafy gives Inventra an offline-first ship-to-shore application model",
+      "byte": "Seafy's Inventra records sales, stock changes and warehouse movements locally during link outages, then automatically synchronises with its fleet platform; APIs connect the onboard application to POS, payments, BI and existing systems.",
+      "summary": "Inventra separates central fleet configuration from local vessel execution. Headquarters distributes catalogues, prices, promotions and role policies, while each ship records transactions and stock movements against a local data store even when disconnected. Queued data synchronises after connectivity returns, and fleet reporting consolidates the resulting records ashore. The platform exposes APIs for Seafy's passenger-facing Onboard Shop, payment systems, business intelligence and existing operator applications, and it supports separate permissions for head office, vessel and shop roles with corporate identity integration. Seafy describes a pilot-first rollout that verifies sales, stock, offline operation and order handling before replication across a fleet.",
+      "why_it_matters": "Retail is the use case, but the architecture is widely reusable onboard: central policy, local write capability, queued synchronisation, explicit role separation and APIs around existing systems. The key production questions are conflict resolution, idempotency, data freshness and recovery after long outages.",
+      "source_name": "Seafy",
+      "source_url": "https://business.seafy.com/en/servizi/galley-operations-management/inventra",
+      "source_type": "external",
+      "published_at": "2026-11-23T00:00:00Z",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-24_seafy-inventra-offline-first.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Onboard retail system recording transactions locally during a satellite outage and synchronising with shore later.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated"
+      }
+    }
+  ]
+}
