@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "slug": "2026-11-27",
+  "title": "Ship Bytes - November 27, 2026",
+  "subject": "Ship Bytes - Maritime tech news, one byte at a time",
+  "published_date": "2026-11-27",
+  "intro": "Cyber-approved loading software, seven months of machinery telemetry, searchable class rules, structured engine data for fleet services and a 220-vessel onboard measurement platform.",
+  "image": {
+    "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-27_cover.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+    "type": "generated",
+    "alt": "Connected merchant vessel with onboard compute, cyber-secure bridge systems, machinery telemetry and ship-to-shore data links.",
+    "credit": "Ship Bytes",
+    "source_url": null,
+    "usage": "generated illustration"
+  },
+  "stories": [
+    {
+      "slug": "macs3-cyber-approvals",
+      "title": "MACS3 loading computer documents UR E27 controls across DNV, LR and ABS assessments",
+      "byte": "Kaleris' MACS3 loading computer has received DNV type approval, a Lloyd's Register statement of compliance and an ABS design assessment covering IACS UR E27, with controls including MFA for remote access, failed-login protection, remote-session controls and USB restrictions.",
+      "summary": "The three class documents cover different approval scopes rather than one interchangeable certificate. DNV type approval TAA00003Z6 is valid through 21 October 2028; Lloyd's Register statement TSO/26-062623-E-001 covers MACS3 NET 1.1 through 27 August 2031; and ABS design assessment 26-0561540-PDA is valid through 30 April 2031 but still requires unit certification for an individual ABS-classed installation. The published scope identifies multi-factor authentication for remote access, protection against repeated failed logins, remote-session controls and restricted USB connectivity. MACS3 handles cargo loading and stowage, stability calculations, ballast water, dangerous goods and trim optimisation, so the assessed system sits directly in the bridge and cargo-planning workflow.",
+      "why_it_matters": "This gives shipyards and vessel IT teams a concrete control baseline for a safety-relevant onboard application, while the differing class documents show why procurement must verify exact certificate scope and vessel-specific approval obligations.",
+      "source_name": "Kaleris",
+      "source_url": "https://kaleris.com/blog-iacs-ur-e26-e27-business-impact-maritime-cyber-security/",
+      "source_type": "external",
+      "published_at": "2026-11-24T00:00:00Z",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-27_macs3-cyber-approvals.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Marine loading-computer workstation with secure remote access and protected removable-media controls on a ship bridge.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated illustration"
+      }
+    },
+    {
+      "slug": "wenyao-machinery-monitoring",
+      "title": "Wenyao machinery model cuts false alarms in seven-month vessel trial",
+      "byte": "China Merchants Nanjing Tanker has run a Wenyao-based equipment-monitoring application for seven months across 59 machinery points, reporting false alarms reduced from 79% to 15% and fault warnings 48 to 72 hours ahead.",
+      "summary": "The application continuously evaluates connected machinery measurements, then correlates an abnormal trend with related equipment points, engineering drawings and manuals before sending evidence and inspection priorities to the chief engineer. Shore teams can view fleet condition and pending work through a central platform, while recommendations can incorporate planned-maintenance schedules, work orders and spare-parts inventories. The latest Wenyao model is described as maritime-native and multimodal, able to combine equipment data with drawings and other marine data types. The reported results are vendor and project claims rather than an independently published benchmark, but the seven-month duration and 59 monitored points make this a materially described deployment rather than a generic AI announcement.",
+      "why_it_matters": "The useful architectural pattern is the combination of live telemetry, technical documentation and maintenance context. If independently validated, that can reduce alarm fatigue without removing the engineer from the decision loop.",
+      "source_name": "Smart Maritime Network",
+      "source_url": "https://smartmaritimenetwork.com/2026/11/24/china-merchants-nanjing-tanker-trials-ai-for-equipment-monitoring/",
+      "source_type": "external",
+      "published_at": "2026-11-24T00:00:00Z",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-27_wenyao-machinery-monitoring.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Chief engineer reviewing machinery sensor trends and maintenance context on a rugged engine-room monitoring console.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated illustration"
+      }
+    },
+    {
+      "slug": "kr-web-rules",
+      "title": "KR turns 15-part ship ruleset and 100,000 formulas into structured web data",
+      "byte": "Korean Register's KR Web Rules replaces PDF-only lookup with structured Korean and English rule data, natural-language and image search, cross-reference previews and more than 100,000 formulas that users can calculate in the browser.",
+      "summary": "KR converted all 15 parts of its Rules for the Classification of Steel Ships into structured bilingual web data. Users can ask a natural-language question and receive relevant clauses with supporting references, upload an image of a formula to locate matching provisions, or describe an illustration to find it. Cross-referenced clauses can be previewed without leaving the current rule and Korean and English material can be compared side by side. More than 100,000 formulas were converted into interactive calculations that accept variable values and can be copied with their original formatting and linked clause references.",
+      "why_it_matters": "This is a practical example of turning maritime compliance documents into addressable data rather than wrapping a chatbot around PDFs. Direct links, structured formulas and traceable clauses make the service more useful for engineering and approval workflows.",
+      "source_name": "Korean Register via Financial News",
+      "source_url": "https://en.fnnews.com/news/202611241005427739",
+      "source_type": "external",
+      "published_at": "2026-11-24T10:11:13Z",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-27_kr-web-rules.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Naval architect using a structured web workspace for ship rules, engineering formulas and cross-referenced drawings.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated illustration"
+      }
+    },
+    {
+      "slug": "cosco-engine-data-framework",
+      "title": "COSCO and Everllence set group framework for structured engine data and 3D models",
+      "byte": "A new group-level MoU moves Everllence's digital work with COSCO SHIPPING beyond individual subsidiaries, with structured main-engine specifications and selected 3D equipment models identified as an initial deliverable across fleets.",
+      "summary": "The agreement creates a group-level development framework for digital services around COSCO SHIPPING's two-stroke engine estate rather than separate projects at each operating company. Everllence says early work may include delivering structured main-engine specifications and selected 3D equipment models in line with China Classification Society guidance, giving downstream engineering and maintenance systems a consistent machine-readable foundation. COSCO operates or controls more than 1,700 vessels, but the announcement does not claim a 1,700-vessel deployment or publish an implementation schedule; it is a development framework with specific first data products, not a completed rollout.",
+      "why_it_matters": "Standardised specifications and 3D models can reduce repeated data preparation across shipyards, owners and service teams. The important next milestone will be a production interface, data model and named fleet deployment rather than the MoU itself.",
+      "source_name": "Everllence",
+      "source_url": "https://www.everllence.com/company/press-releases/details/2026/11/24/everllence-and-cosco-shipping-advance-fleet-digitalisation",
+      "source_type": "external",
+      "published_at": "2026-11-24T00:00:00Z",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-27_cosco-engine-data-framework.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Marine engineers reviewing a label-free 3D two-stroke engine model linked to multiple vessel types.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated illustration"
+      }
+    },
+    {
+      "slug": "tresco-green-maritime-telemetry",
+      "title": "Tresco adds onboard telemetry platform running on 220 seagoing vessels",
+      "byte": "Tresco has acquired Green Maritime's onboard measurement platform, which collects actual fuel use, engine performance and navigation data on 220 mainly short-sea vessels; the companies plan to converge inland and seagoing data on one fleet platform.",
+      "summary": "Green Maritime's installed system measures fuel consumption directly rather than deriving it from bunker notes and estimates, and combines those readings with engine-performance and navigation data. The technology is already in daily use on 220 seagoing vessels, mainly in short-sea trades. Tresco brings a larger installation and dealer network plus its existing navigation, automation and ship-to-office software footprint; its Fleet application already supplies real-time vessel data to 1,170 customers. Green Maritime will initially remain a separate business unit, so the single mixed-fleet platform is a stated integration direction rather than a completed migration.",
+      "why_it_matters": "The transaction puts proven seagoing sensor data beside an established ship-to-shore software estate. For technical teams, the real value will depend on common schemas, gateway integration and migration tooling as the two platforms converge.",
+      "source_name": "Tresco Group",
+      "source_url": "https://www.tresco.eu/tresco-group-neemt-green-maritime-over/",
+      "source_type": "external",
+      "published_at": "2026-11-25T00:00:00Z",
+      "image": {
+        "url": "https://www.dropbox.com/scl/fo/ry05g9ow61zsroacmfdi1/AJcsXkGtzq3J8ONf0f0rJR8?dl=1&preview=2026-11-27_tresco-green-maritime-telemetry.jpg&rlkey=t1aod2y9bdclzg5y0d9y08tk8",
+        "type": "generated",
+        "alt": "Short-sea cargo vessel sending fuel, engine and navigation telemetry through an onboard gateway to a shore platform.",
+        "credit": "Ship Bytes",
+        "source_url": null,
+        "usage": "generated illustration"
+      }
+    }
+  ]
+}
